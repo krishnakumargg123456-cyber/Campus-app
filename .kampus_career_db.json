@@ -1,0 +1,514 @@
+{
+  "organizations": [
+    {
+      "id": "org_kampus_cell",
+      "name": "Campus Placement & Career Cell (Sample)",
+      "industry": "Education & Campus Recruiting",
+      "location": "Campus Placement Office / Hybrid",
+      "website": "https://kampus.edu.in",
+      "description": "Coordinates campus placement drives, alumni mentorship cohorts, and KAMPUS-hosted student internship applications.",
+      "verificationStatus": "Verified Organization"
+    },
+    {
+      "id": "org_opensource_gsoc",
+      "name": "Open-Source Fellowship & Summer Coding Programs",
+      "industry": "Software Engineering & Research",
+      "location": "Remote (Global)",
+      "website": "https://summerofcode.withgoogle.com",
+      "description": "Publicly documented global open-source mentoring program for university students.",
+      "verificationStatus": "Unverified Listing Source"
+    },
+    {
+      "id": "org_nptel_research",
+      "name": "National Academic Research & Lab Fellowship Directory",
+      "industry": "Science, AI & Academic Research",
+      "location": "Multiple University Labs (India)",
+      "website": "https://nptel.ac.in",
+      "description": "External academic summer fellowship and faculty-mentored research tracks.",
+      "verificationStatus": "Unverified Listing Source"
+    },
+    {
+      "id": "org_civic_design",
+      "name": "CivicTech & Public Systems Studio (Sample)",
+      "industry": "Design, Data & Digital Public Infrastructure",
+      "location": "Bengaluru / Remote",
+      "website": "https://example.org",
+      "description": "Sample development organization showcasing KAMPUS-hosted internship & trainee application flows.",
+      "verificationStatus": "Verified Organization"
+    }
+  ],
+  "opportunities": [
+    {
+      "id": "opp_swe_intern_sample",
+      "title": "Software Engineering Student Intern (Sample Hosted Listing)",
+      "organizationId": "org_civic_design",
+      "organizationName": "CivicTech & Public Systems Studio (Sample)",
+      "organizationVerified": true,
+      "location": "Bengaluru / Hybrid",
+      "workFormat": "Hybrid",
+      "opportunityType": "Internship",
+      "category": "Software Development",
+      "experienceLevel": "Fresher / Student",
+      "educationRequirement": "Enrolled B.Tech / B.E. / MCA / B.Sc CS student",
+      "requiredSkills": [
+        "TypeScript",
+        "React",
+        "SQL",
+        "Git"
+      ],
+      "preferredSkills": [
+        "Node.js",
+        "Automated Testing",
+        "Accessibility"
+      ],
+      "isPaid": true,
+      "compensationLabel": "Sample Listing · Stipend details shared in offer terms",
+      "deadlineISO": "2026-12-02",
+      "publishedAtISO": "2026-11-12",
+      "listingSource": "Sample Development Listing",
+      "applicationMode": "KAMPUS-Hosted",
+      "aboutOrganization": "Sample development partner demonstrating verified KAMPUS-hosted student internship workflow.",
+      "roleDescription": "Collaborate with engineers to build accessible student-facing APIs, clean UI screens, and automated tests.",
+      "responsibilities": [
+        "Implement modular React + TypeScript components and Express endpoints.",
+        "Write unit/integration checks and participate in peer code reviews."
+      ],
+      "qualifications": [
+        "Currently enrolled undergraduate or postgraduate student.",
+        "At least 1 reproducible web or API project on GitHub."
+      ],
+      "benefits": [
+        "Mentorship code reviews",
+        "Verified completion certificate"
+      ],
+      "applicationProcess": [
+        "Review role requirements and attach your KAMPUS Resume version.",
+        "Submit explicitly inside KAMPUS (consent required before sharing)."
+      ],
+      "importantDates": [
+        "Application Deadline: 2026-12-02"
+      ],
+      "status": "Open",
+      "createdById": "system_sample"
+    },
+    {
+      "id": "opp_gsoc_external",
+      "title": "Open-Source Summer Coding Contributor Track",
+      "organizationId": "org_opensource_gsoc",
+      "organizationName": "Open-Source Fellowship & Summer Coding Programs",
+      "organizationVerified": false,
+      "location": "Remote",
+      "workFormat": "Remote",
+      "opportunityType": "Remote Opportunity",
+      "category": "Artificial Intelligence",
+      "experienceLevel": "Fresher / Student",
+      "educationRequirement": "University student or eligible open-source beginner",
+      "requiredSkills": [
+        "Git",
+        "Python or TypeScript",
+        "Documentation"
+      ],
+      "preferredSkills": [
+        "Open-source pull requests",
+        "Testing"
+      ],
+      "isPaid": true,
+      "compensationLabel": "Official stipend set by host program rules",
+      "deadlineISO": "2026-12-09",
+      "publishedAtISO": "2026-11-11",
+      "listingSource": "Official External Portal",
+      "applicationMode": "External Link",
+      "externalApplyUrl": "https://summerofcode.withgoogle.com",
+      "aboutOrganization": "Global open-source mentoring program connecting students with established open-source organizations.",
+      "roleDescription": "Propose a 12-week software or applied ML engineering project under open-source maintainer mentorship.",
+      "responsibilities": [
+        "Contribute starter bug-fix PRs to target repositories.",
+        "Author a scoped technical project proposal."
+      ],
+      "qualifications": [
+        "Review official eligibility guidelines on external portal."
+      ],
+      "benefits": [
+        "Mentorship from open-source maintainers",
+        "Public commit portfolio"
+      ],
+      "applicationProcess": [
+        "Opens external portal — submit proposal directly on official website.",
+        "Track your status manually inside KAMPUS Application Tracker."
+      ],
+      "importantDates": [
+        "Check official portal for cohort schedule (2026-12-09)"
+      ],
+      "status": "Open",
+      "createdById": "system_sample"
+    },
+    {
+      "id": "opp_research_fellow",
+      "title": "Undergraduate Summer Research Assistantship (Sample)",
+      "organizationId": "org_nptel_research",
+      "organizationName": "National Academic Research & Lab Fellowship Directory",
+      "organizationVerified": false,
+      "location": "IIT / IISc / University Labs",
+      "workFormat": "Onsite",
+      "opportunityType": "Research Opportunity",
+      "category": "Research",
+      "experienceLevel": "Research Track",
+      "educationRequirement": "2nd / 3rd year B.Tech / B.Sc / M.Sc scholars",
+      "requiredSkills": [
+        "Python",
+        "Academic Writing",
+        "Literature Review"
+      ],
+      "preferredSkills": [
+        "Data Analysis",
+        "LaTeX"
+      ],
+      "isPaid": false,
+      "compensationLabel": "Fellowship terms verified on official university portal",
+      "deadlineISO": "2026-12-05",
+      "publishedAtISO": "2026-11-10",
+      "listingSource": "Official External Portal",
+      "applicationMode": "External Link",
+      "externalApplyUrl": "https://nptel.ac.in",
+      "aboutOrganization": "Faculty-mentored university research initiatives across STEM and Science.",
+      "roleDescription": "Work with faculty labs on experimental replication, dataset curation, and scholarly writing.",
+      "responsibilities": [
+        "Run reproducible experiments and maintain lab logs.",
+        "Draft literature synthesis."
+      ],
+      "qualifications": [
+        "Strong academic foundation in core department subjects."
+      ],
+      "benefits": [
+        "Research mentorship",
+        "Conference or journal co-authorship opportunity"
+      ],
+      "applicationProcess": [
+        "Apply on official external university research portal."
+      ],
+      "importantDates": [
+        "Target window closes: 2026-12-05"
+      ],
+      "status": "Open",
+      "createdById": "system_sample"
+    },
+    {
+      "id": "opp_campus_analyst",
+      "title": "Associate Data & Product Analyst — Campus Drive (Sample)",
+      "organizationId": "org_kampus_cell",
+      "organizationName": "Campus Placement & Career Cell (Sample)",
+      "organizationVerified": true,
+      "location": "Mumbai / Hybrid",
+      "workFormat": "Hybrid",
+      "opportunityType": "Campus Placement",
+      "category": "Data Science",
+      "experienceLevel": "0-1 Years",
+      "educationRequirement": "Final-year undergraduate / postgraduate candidates",
+      "requiredSkills": [
+        "SQL",
+        "Python",
+        "Statistics",
+        "Excel"
+      ],
+      "preferredSkills": [
+        "Product Metrics",
+        "Visualization"
+      ],
+      "isPaid": true,
+      "compensationLabel": "Campus Drive · Compensation shared by Placement Cell",
+      "deadlineISO": "2026-11-26",
+      "publishedAtISO": "2026-11-13",
+      "listingSource": "Sample Development Listing",
+      "applicationMode": "KAMPUS-Hosted",
+      "aboutOrganization": "Campus placement coordination listing for graduating scholars.",
+      "roleDescription": "Analyze funnel retention, cohort metrics, and product experiments alongside engineering and design peers.",
+      "responsibilities": [
+        "Write clean SQL queries and build weekly metric reviews.",
+        "Partner with product teams to design controlled experiments."
+      ],
+      "qualifications": [
+        "Graduating cohort eligible per Placement Cell guidelines."
+      ],
+      "benefits": [
+        "Structured onboarding",
+        "Cross-functional product exposure"
+      ],
+      "applicationProcess": [
+        "Submit KAMPUS Resume version + explicit consent."
+      ],
+      "importantDates": [
+        "Pre-placement screening deadline: 2026-11-26"
+      ],
+      "status": "Open",
+      "createdById": "system_sample"
+    },
+    {
+      "id": "opp_uiux_freelance",
+      "title": "Campus Accessibility & UI Design Apprentice (Sample)",
+      "organizationId": "org_civic_design",
+      "organizationName": "CivicTech & Public Systems Studio (Sample)",
+      "organizationVerified": true,
+      "location": "Remote",
+      "workFormat": "Remote",
+      "opportunityType": "Apprenticeship",
+      "category": "Design",
+      "experienceLevel": "Fresher / Student",
+      "educationRequirement": "Design, Engineering, or Humanities students with UI case study",
+      "requiredSkills": [
+        "Figma",
+        "Wireframing",
+        "WCAG Accessibility"
+      ],
+      "preferredSkills": [
+        "Design Systems",
+        "HTML/CSS"
+      ],
+      "isPaid": true,
+      "compensationLabel": "Sample Development Listing · Paid apprenticeship track",
+      "deadlineISO": "2026-12-14",
+      "publishedAtISO": "2026-11-09",
+      "listingSource": "Sample Development Listing",
+      "applicationMode": "KAMPUS-Hosted",
+      "aboutOrganization": "Digital public services design studio mentoring student designers.",
+      "roleDescription": "Audit student workflows for mobile readability, design accessible components, and run usability sessions.",
+      "responsibilities": [
+        "Create wireframes & accessible Figma specs.",
+        "Test prototypes with 5+ students."
+      ],
+      "qualifications": [
+        "1 documented UI/UX case study in your portfolio."
+      ],
+      "benefits": [
+        "Portfolio case study review",
+        "Design mentor feedback"
+      ],
+      "applicationProcess": [
+        "Apply directly via KAMPUS with resume & portfolio link."
+      ],
+      "importantDates": [
+        "Deadline: 2026-12-14"
+      ],
+      "status": "Open",
+      "createdById": "system_sample"
+    }
+  ],
+  "scholarships": [
+    {
+      "id": "sch_nsp_portal",
+      "title": "National Scholarship Portal (NSP) — Central & State Student Schemes",
+      "programType": "Scholarship",
+      "organization": "Ministry of Education / Government of India (Official Directory)",
+      "eligibility": "Verified income, merit, and institution criteria vary by scheme — check exact scheme rules on official NSP portal.",
+      "requirements": [
+        "Institutional bonafide verification",
+        "Academic marksheets & income/category certificates where applicable"
+      ],
+      "deadlineISO": "2026-12-29",
+      "benefits": "Tuition & maintenance support strictly per official scheme guidelines.",
+      "officialSourceName": "scholarships.gov.in",
+      "officialSourceUrl": "https://scholarships.gov.in",
+      "lastUpdatedISO": "2026-11-14",
+      "isSampleListing": false
+    },
+    {
+      "id": "sch_ias_srpf",
+      "title": "Science Academies Summer Research Fellowship Program (Directory Reference)",
+      "programType": "Fellowship",
+      "organization": "IASc · INSA · NASI",
+      "eligibility": "Undergraduate and postgraduate science/engineering students meeting official academic cutoff criteria.",
+      "requirements": [
+        "Academic transcripts",
+        "Statement of purpose",
+        "Faculty recommendation"
+      ],
+      "deadlineISO": "2026-12-19",
+      "benefits": "8-week mentored research placement in university/national labs.",
+      "officialSourceName": "webjapps.ias.ac.in",
+      "officialSourceUrl": "https://webjapps.ias.ac.in",
+      "lastUpdatedISO": "2026-11-14",
+      "isSampleListing": false
+    },
+    {
+      "id": "sch_campus_prep_workshop",
+      "title": "Campus Placement Readiness & Mock Technical Clinic (Sample Program)",
+      "programType": "Career Workshop",
+      "organization": "Campus Placement & Career Cell",
+      "eligibility": "Open to all enrolled pre-final and final year students.",
+      "requirements": [
+        "Completed KAMPUS Resume Draft"
+      ],
+      "deadlineISO": "2026-11-24",
+      "benefits": "Structured peer & alumni mock review sessions.",
+      "officialSourceName": "KAMPUS Events & Career Cell",
+      "officialSourceUrl": "https://kampus.edu.in",
+      "lastUpdatedISO": "2026-11-14",
+      "isSampleListing": true
+    }
+  ],
+  "applications": [],
+  "resumes": [
+    {
+      "id": "res_1794646385950_afv",
+      "userId": "22B030149",
+      "versionName": "Primary Student Resume (Editable)",
+      "templateId": "Professional",
+      "sectionOrder": [
+        "summary",
+        "education",
+        "skills",
+        "projects",
+        "internships",
+        "experience",
+        "certifications",
+        "achievements",
+        "positions",
+        "extracurricular",
+        "languages",
+        "links"
+      ],
+      "hiddenSections": [],
+      "personalInfo": {
+        "fullName": "KAMPUS Student",
+        "email": "priya.sharma@cse.iitb.ac.in",
+        "phone": "",
+        "location": "",
+        "headline": "B.Tech in Computer Science & AI Student",
+        "linkedin": "",
+        "github": "",
+        "portfolioUrl": ""
+      },
+      "summary": "",
+      "education": [
+        {
+          "institution": "Indian Institute of Technology, Bombay",
+          "degree": "B.Tech in Computer Science & AI",
+          "period": "Semester 6",
+          "grade": ""
+        }
+      ],
+      "skills": [],
+      "experience": [],
+      "internships": [],
+      "projects": [],
+      "certifications": [],
+      "achievements": [],
+      "positions": [],
+      "extracurricular": [],
+      "languages": [
+        "English"
+      ],
+      "links": [],
+      "updatedAt": "2026-11-14T08:53:05.950Z"
+    }
+  ],
+  "portfoliosByUser": {
+    "22B030149": {
+      "userId": "22B030149",
+      "publicSlug": "kampus-student-0149",
+      "isPublic": false,
+      "theme": "Editorial Clean",
+      "sectionOrder": [
+        "about",
+        "education",
+        "skills",
+        "projects",
+        "experience",
+        "certifications",
+        "achievements",
+        "resume",
+        "contact"
+      ],
+      "aboutMe": "",
+      "educationSummary": "B.Tech in Computer Science & AI · Indian Institute of Technology, Bombay (Semester 6)",
+      "skills": [],
+      "projects": [],
+      "experienceSummary": "",
+      "certifications": [],
+      "achievements": [],
+      "showContactLinks": false,
+      "contactEmail": "priya.sharma@cse.iitb.ac.in",
+      "githubUrl": "",
+      "linkedinUrl": "",
+      "updatedAt": "2026-11-14T08:53:05.950Z"
+    }
+  },
+  "roadmapsByUser": {
+    "22B030149": {
+      "userId": "22B030149",
+      "educationLevel": "Semester 6",
+      "academicBackground": "B.Tech in Computer Science & AI",
+      "careerInterest": "Software & Applied Problem Solving",
+      "currentSkills": [],
+      "desiredRole": "Software Engineer",
+      "learningPreference": "Hands-on Projects + Structured Practice",
+      "weeklyHours": 8,
+      "milestones": [
+        {
+          "id": "rm_1",
+          "stage": 1,
+          "title": "Foundation: Core Programming & Data Modeling",
+          "description": "Review language fundamentals, version control (Git), and SQL basics.",
+          "completed": false
+        },
+        {
+          "id": "rm_2",
+          "stage": 2,
+          "title": "Skill Development: Guided Practice & Assessment",
+          "description": "Complete topic-wise Programming and Problem Solving practice tests.",
+          "completed": false
+        },
+        {
+          "id": "rm_3",
+          "stage": 3,
+          "title": "Portfolio: Document 1 Real Project Case Study",
+          "description": "Publish a reproducible project with architecture notes and outcomes.",
+          "completed": false
+        },
+        {
+          "id": "rm_4",
+          "stage": 4,
+          "title": "Career Preparation: ATS Resume & Mock Interview",
+          "description": "Complete resume review and run 2 structured mock interview sessions.",
+          "completed": false
+        },
+        {
+          "id": "rm_5",
+          "stage": 5,
+          "title": "Opportunities: Targeted Internship & Fellowship Applications",
+          "description": "Shortlist verified internships or official fellowship tracks.",
+          "completed": false
+        }
+      ],
+      "updatedAt": "2026-11-14T08:53:05.950Z"
+    }
+  },
+  "preferencesByUser": {
+    "22B030149": {
+      "userId": "22B030149",
+      "interests": [
+        "Software Development"
+      ],
+      "preferredIndustries": [
+        "Technology"
+      ],
+      "targetRoles": [
+        "Software Engineer"
+      ],
+      "skills": [],
+      "learningGoals": [
+        "Build verified project portfolio"
+      ],
+      "visibilityToRecruiters": "With Consent Only",
+      "alerts": []
+    }
+  },
+  "savedOppIdsByUser": {},
+  "viewedOppIdsByUser": {},
+  "notInterestedByUser": {},
+  "interviewHistory": [],
+  "assessmentAttempts": [],
+  "learningProgressByUser": {},
+  "reports": [],
+  "roleOverrides": {},
+  "resumeFiles": {}
+}

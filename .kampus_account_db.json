@@ -1,0 +1,259 @@
+{
+  "profiles": {
+    "usr_22b030149": {
+      "userId": "usr_22b030149",
+      "fullName": "Priya Sharma",
+      "username": "priya_sharma_0149",
+      "headline": "B.Tech in Computer Science & AI Student",
+      "avatarUrl": "/src/assets/images/avatar_priya_1794407582447.jpg",
+      "coverUrl": "",
+      "dateOfBirth": "",
+      "gender": "",
+      "email": "priya.sharma@cse.iitb.ac.in",
+      "phone": "+91 98765 43210",
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "country": "India",
+      "preferredLanguage": "English",
+      "bio": "CS Junior interested in Distributed Consensus, Neural Search & Competitive Programming. Tech Council Member at IIT-B.",
+      "careerGoals": "",
+      "college": "Indian Institute of Technology, Bombay",
+      "university": "Indian Institute of Technology, Bombay",
+      "course": "B.Tech in Computer Science & AI",
+      "specialization": "",
+      "semester": "Semester 6",
+      "enrollmentNo": "22B030149",
+      "isVerified": true,
+      "verificationSource": "KAMPUS Student Identity",
+      "educationRecords": [
+        {
+          "id": "edu_b383a4c9",
+          "institution": "Indian Institute of Technology, Bombay",
+          "university": "Indian Institute of Technology, Bombay",
+          "courseProgram": "B.Tech in Computer Science & AI",
+          "stream": "",
+          "specialization": "",
+          "academicYear": "",
+          "semesterOrClass": "Semester 6",
+          "enrollmentYear": "",
+          "graduationYear": "",
+          "academicInterests": "",
+          "description": "",
+          "isCurrent": true
+        }
+      ],
+      "skills": [],
+      "interests": [],
+      "achievements": [],
+      "projects": [],
+      "privacy": {
+        "visibility": "KAMPUS Members",
+        "showPhoto": true,
+        "showBio": true,
+        "showAcademic": true,
+        "showSkills": true,
+        "showAchievements": true,
+        "showProjects": true,
+        "showActivity": true,
+        "showContactInfo": false,
+        "showEmail": false,
+        "showPhone": false,
+        "showDob": false,
+        "showGender": false
+      },
+      "createdAt": "2026-11-14T08:46:01.613Z",
+      "updatedAt": "2026-11-14T08:46:01.613Z"
+    },
+    "22B030149": {
+      "userId": "22B030149",
+      "fullName": "Priya Sharma",
+      "username": "priya_sharma_0149",
+      "headline": "University Student",
+      "avatarUrl": "",
+      "coverUrl": "",
+      "dateOfBirth": "",
+      "gender": "",
+      "email": "priya.sharma@cse.iitb.ac.in",
+      "phone": "",
+      "city": "",
+      "state": "",
+      "country": "India",
+      "preferredLanguage": "English",
+      "bio": "",
+      "careerGoals": "",
+      "college": "",
+      "university": "",
+      "course": "",
+      "specialization": "",
+      "semester": "",
+      "enrollmentNo": "22B030149",
+      "isVerified": false,
+      "verificationSource": null,
+      "educationRecords": [],
+      "skills": [],
+      "interests": [],
+      "achievements": [],
+      "projects": [],
+      "privacy": {
+        "visibility": "KAMPUS Members",
+        "showPhoto": true,
+        "showBio": true,
+        "showAcademic": true,
+        "showSkills": true,
+        "showAchievements": true,
+        "showProjects": true,
+        "showActivity": true,
+        "showContactInfo": false,
+        "showEmail": false,
+        "showPhone": false,
+        "showDob": false,
+        "showGender": false
+      },
+      "createdAt": "2026-11-14T08:53:05.999Z",
+      "updatedAt": "2026-11-14T08:53:05.999Z"
+    }
+  },
+  "settings": {
+    "usr_22b030149": {
+      "userId": "usr_22b030149",
+      "account": {
+        "status": "Active",
+        "emailVerified": false,
+        "phoneVerified": false,
+        "passwordLastChangedAt": null,
+        "loginMethods": [
+          "College Email & Password"
+        ],
+        "createdAt": "2026-11-14T08:46:01.613Z"
+      },
+      "privacy": {
+        "profileVisibility": "KAMPUS Members",
+        "activityVisibility": {
+          "community": true,
+          "notes": true,
+          "achievements": true,
+          "events": true,
+          "projects": true
+        },
+        "discovery": {
+          "searchableByStudents": true,
+          "studyPartnerDiscovery": true,
+          "allowProfileSharing": true,
+          "allowMentions": true
+        },
+        "messaging": {
+          "messageRequestsFrom": "Everyone",
+          "postInteractionsFrom": "Everyone"
+        },
+        "blockedUsers": [],
+        "mutedUsers": []
+      },
+      "appearance": {
+        "theme": "light",
+        "density": "comfortable",
+        "reduceMotion": false,
+        "sidebarBehavior": "expanded"
+      },
+      "languageRegion": {
+        "language": "en",
+        "country": "India",
+        "timezone": "Asia/Kolkata",
+        "dateFormat": "DD/MM/YYYY",
+        "timeFormat": "12h",
+        "weekStartDay": "Monday"
+      },
+      "accessibility": {
+        "textSize": "default",
+        "highContrast": false,
+        "reduceMotion": false,
+        "enhancedFocusIndicators": true,
+        "screenReaderHints": true
+      },
+      "updatedAt": "2026-11-14T08:46:01.627Z"
+    },
+    "22B030149": {
+      "userId": "22B030149",
+      "account": {
+        "status": "Active",
+        "emailVerified": false,
+        "phoneVerified": false,
+        "passwordLastChangedAt": null,
+        "loginMethods": [
+          "College Email & Password"
+        ],
+        "createdAt": "2026-11-14T08:53:05.999Z"
+      },
+      "privacy": {
+        "profileVisibility": "KAMPUS Members",
+        "activityVisibility": {
+          "community": true,
+          "notes": true,
+          "achievements": true,
+          "events": true,
+          "projects": true
+        },
+        "discovery": {
+          "searchableByStudents": true,
+          "studyPartnerDiscovery": true,
+          "allowProfileSharing": true,
+          "allowMentions": true
+        },
+        "messaging": {
+          "messageRequestsFrom": "Everyone",
+          "postInteractionsFrom": "Everyone"
+        },
+        "blockedUsers": [],
+        "mutedUsers": []
+      },
+      "appearance": {
+        "theme": "light",
+        "density": "comfortable",
+        "reduceMotion": false,
+        "sidebarBehavior": "expanded"
+      },
+      "languageRegion": {
+        "language": "en",
+        "country": "India",
+        "timezone": "Asia/Kolkata",
+        "dateFormat": "DD/MM/YYYY",
+        "timeFormat": "12h",
+        "weekStartDay": "Monday"
+      },
+      "accessibility": {
+        "textSize": "default",
+        "highContrast": false,
+        "reduceMotion": false,
+        "enhancedFocusIndicators": true,
+        "screenReaderHints": true
+      },
+      "updatedAt": "2026-11-14T08:53:06.032Z"
+    }
+  },
+  "sessions": [
+    {
+      "id": "sess_e8cc0a64",
+      "userId": "22B030149",
+      "deviceLabel": "Desktop Workstation",
+      "browserLabel": "Web Browser",
+      "lastActiveAt": "2026-11-14T08:53:15.268Z",
+      "isCurrent": true,
+      "active": true
+    },
+    {
+      "id": "sess_ca6f0a82",
+      "userId": "usr_22b030149",
+      "deviceLabel": "Mobile Device",
+      "browserLabel": "Google Chrome",
+      "lastActiveAt": "2026-11-14T08:46:01.628Z",
+      "isCurrent": true,
+      "active": true
+    }
+  ],
+  "securityAudit": [],
+  "reports": [],
+  "deletionRequests": [],
+  "supportTickets": [],
+  "passwordMetaByUser": {},
+  "disconnectedServicesByUser": {},
+  "modRoleOverrides": {}
+}

@@ -1,0 +1,2658 @@
+{
+  "tokenSecret": "9526f195c4b35b7bad32d7f813c267784ed8935138ccd8a6c6f942ca637345c7",
+  "roles": [
+    {
+      "id": "super_admin",
+      "name": "Super Admin",
+      "description": "Full platform ownership including availability, global settings, RBAC, security, and backups.",
+      "permissions": [
+        "view",
+        "create",
+        "edit",
+        "delete",
+        "approve",
+        "publish",
+        "export",
+        "configure",
+        "manage_users",
+        "manage_permissions"
+      ],
+      "isSystem": true
+    },
+    {
+      "id": "admin",
+      "name": "Admin",
+      "description": "Operational platform management across features, colleges, events, marketplace, and users.",
+      "permissions": [
+        "view",
+        "create",
+        "edit",
+        "delete",
+        "approve",
+        "publish",
+        "export",
+        "configure",
+        "manage_users"
+      ],
+      "isSystem": true
+    },
+    {
+      "id": "content_manager",
+      "name": "Content Manager",
+      "description": "Homepage Builder, Page Management CMS, Navigation, Media Library, and Academic Resources.",
+      "permissions": [
+        "view",
+        "create",
+        "edit",
+        "publish"
+      ],
+      "isSystem": true
+    },
+    {
+      "id": "moderator",
+      "name": "Moderator",
+      "description": "Community moderation, Notes/Market report handling, and student safety enforcement.",
+      "permissions": [
+        "view",
+        "edit",
+        "approve",
+        "delete"
+      ],
+      "isSystem": true
+    },
+    {
+      "id": "support_admin",
+      "name": "Support Admin",
+      "description": "Support Center ticket triage, student assistance replies, and issue status tracking.",
+      "permissions": [
+        "view",
+        "create",
+        "edit"
+      ],
+      "isSystem": true
+    },
+    {
+      "id": "custom",
+      "name": "Custom Role",
+      "description": "Configurable role permissions assigned directly by a Super Admin.",
+      "permissions": [
+        "view",
+        "edit"
+      ],
+      "isSystem": false
+    }
+  ],
+  "teamMembers": [
+    {
+      "id": "adm-super-1",
+      "name": "Priyanka Kumari",
+      "email": "admin@kampus.edu.in",
+      "roleId": "super_admin",
+      "status": "Active",
+      "lastLoginAt": "2026-11-15T13:04:01.553Z",
+      "createdAt": "2026-11-14T09:07:42.551Z"
+    },
+    {
+      "id": "adm-content-1",
+      "name": "Aarav Mehta",
+      "email": "content@kampus.edu.in",
+      "roleId": "content_manager",
+      "status": "Active",
+      "lastLoginAt": "2026-11-15T13:04:04.909Z",
+      "createdAt": "2026-11-14T09:07:42.551Z"
+    },
+    {
+      "id": "adm-mod-1",
+      "name": "Neha Verma",
+      "email": "mod@kampus.edu.in",
+      "roleId": "moderator",
+      "status": "Active",
+      "lastLoginAt": null,
+      "createdAt": "2026-11-14T09:07:42.551Z"
+    },
+    {
+      "id": "adm-support-1",
+      "name": "Rohan Nair",
+      "email": "support@kampus.edu.in",
+      "roleId": "support_admin",
+      "status": "Active",
+      "lastLoginAt": null,
+      "createdAt": "2026-11-14T09:07:42.551Z"
+    }
+  ],
+  "credentials": [
+    {
+      "adminId": "adm-super-1",
+      "passwordSalt": "4ad59e2e6ddeceac0130c28abe7dd43d",
+      "passwordHash": "21aaab233e0055f4f1b2ab9590d4a9118cf60e4e18b308f5305bdb03e4e77d2c704017ec067995c1be0d98fa90e47247139adcf694cdbbad6d3a0a71a82b4abc"
+    },
+    {
+      "adminId": "adm-content-1",
+      "passwordSalt": "4ad59e2e6ddeceac0130c28abe7dd43d",
+      "passwordHash": "21aaab233e0055f4f1b2ab9590d4a9118cf60e4e18b308f5305bdb03e4e77d2c704017ec067995c1be0d98fa90e47247139adcf694cdbbad6d3a0a71a82b4abc"
+    },
+    {
+      "adminId": "adm-mod-1",
+      "passwordSalt": "4ad59e2e6ddeceac0130c28abe7dd43d",
+      "passwordHash": "21aaab233e0055f4f1b2ab9590d4a9118cf60e4e18b308f5305bdb03e4e77d2c704017ec067995c1be0d98fa90e47247139adcf694cdbbad6d3a0a71a82b4abc"
+    },
+    {
+      "adminId": "adm-support-1",
+      "passwordSalt": "4ad59e2e6ddeceac0130c28abe7dd43d",
+      "passwordHash": "21aaab233e0055f4f1b2ab9590d4a9118cf60e4e18b308f5305bdb03e4e77d2c704017ec067995c1be0d98fa90e47247139adcf694cdbbad6d3a0a71a82b4abc"
+    }
+  ],
+  "sessions": [
+    {
+      "id": "adm-sess-27f060dba68d",
+      "adminId": "adm-content-1",
+      "adminEmail": "content@kampus.edu.in",
+      "adminName": "Aarav Mehta",
+      "roleId": "content_manager",
+      "createdAt": "2026-11-15T13:04:04.909Z",
+      "lastActiveAt": "2026-11-15T13:04:05.676Z",
+      "userAgent": "node",
+      "ipAddress": "127.0.0.1",
+      "active": false
+    },
+    {
+      "id": "adm-sess-9240e5e56984",
+      "adminId": "adm-super-1",
+      "adminEmail": "admin@kampus.edu.in",
+      "adminName": "Priyanka Kumari",
+      "roleId": "super_admin",
+      "createdAt": "2026-11-15T13:04:01.553Z",
+      "lastActiveAt": "2026-11-15T13:04:05.543Z",
+      "userAgent": "node",
+      "ipAddress": "127.0.0.1",
+      "active": false
+    },
+    {
+      "id": "adm-sess-6c9f25d951c5",
+      "adminId": "adm-content-1",
+      "adminEmail": "content@kampus.edu.in",
+      "adminName": "Aarav Mehta",
+      "roleId": "content_manager",
+      "createdAt": "2026-11-15T13:03:36.497Z",
+      "lastActiveAt": "2026-11-15T13:03:37.231Z",
+      "userAgent": "node",
+      "ipAddress": "127.0.0.1",
+      "active": false
+    },
+    {
+      "id": "adm-sess-d34943e15330",
+      "adminId": "adm-super-1",
+      "adminEmail": "admin@kampus.edu.in",
+      "adminName": "Priyanka Kumari",
+      "roleId": "super_admin",
+      "createdAt": "2026-11-15T13:03:33.158Z",
+      "lastActiveAt": "2026-11-15T13:03:37.095Z",
+      "userAgent": "node",
+      "ipAddress": "127.0.0.1",
+      "active": false
+    },
+    {
+      "id": "adm-sess-f97ac7c77743",
+      "adminId": "adm-content-1",
+      "adminEmail": "content@kampus.edu.in",
+      "adminName": "Aarav Mehta",
+      "roleId": "content_manager",
+      "createdAt": "2026-11-15T13:03:15.857Z",
+      "lastActiveAt": "2026-11-15T13:03:16.166Z",
+      "userAgent": "node",
+      "ipAddress": "127.0.0.1",
+      "active": false
+    },
+    {
+      "id": "adm-sess-e9c2e75eea5e",
+      "adminId": "adm-super-1",
+      "adminEmail": "admin@kampus.edu.in",
+      "adminName": "Priyanka Kumari",
+      "roleId": "super_admin",
+      "createdAt": "2026-11-15T13:03:13.636Z",
+      "lastActiveAt": "2026-11-15T13:03:16.043Z",
+      "userAgent": "node",
+      "ipAddress": "127.0.0.1",
+      "active": false
+    },
+    {
+      "id": "adm-sess-c2fcbe5b9a8e",
+      "adminId": "adm-super-1",
+      "adminEmail": "admin@kampus.edu.in",
+      "adminName": "Priyanka Kumari",
+      "roleId": "super_admin",
+      "createdAt": "2026-11-15T13:02:54.052Z",
+      "lastActiveAt": "2026-11-15T13:02:54.052Z",
+      "userAgent": "node",
+      "ipAddress": "127.0.0.1",
+      "active": true
+    },
+    {
+      "id": "adm-sess-db765bbf370c",
+      "adminId": "adm-content-1",
+      "adminEmail": "content@kampus.edu.in",
+      "adminName": "Aarav Mehta",
+      "roleId": "content_manager",
+      "createdAt": "2026-11-15T13:01:14.142Z",
+      "lastActiveAt": "2026-11-15T13:01:18.245Z",
+      "userAgent": "node",
+      "ipAddress": "127.0.0.1",
+      "active": false
+    },
+    {
+      "id": "adm-sess-db4139e84fef",
+      "adminId": "adm-super-1",
+      "adminEmail": "admin@kampus.edu.in",
+      "adminName": "Priyanka Kumari",
+      "roleId": "super_admin",
+      "createdAt": "2026-11-15T13:01:14.008Z",
+      "lastActiveAt": "2026-11-15T13:01:18.115Z",
+      "userAgent": "node",
+      "ipAddress": "127.0.0.1",
+      "active": false
+    },
+    {
+      "id": "adm-sess-7a0c2a697a72",
+      "adminId": "adm-content-1",
+      "adminEmail": "content@kampus.edu.in",
+      "adminName": "Aarav Mehta",
+      "roleId": "content_manager",
+      "createdAt": "2026-11-15T12:39:27.636Z",
+      "lastActiveAt": "2026-11-15T12:39:27.636Z",
+      "userAgent": "node",
+      "ipAddress": "127.0.0.1",
+      "active": true
+    },
+    {
+      "id": "adm-sess-eb8c4c8ee77a",
+      "adminId": "adm-super-1",
+      "adminEmail": "admin@kampus.edu.in",
+      "adminName": "Priyanka Kumari",
+      "roleId": "super_admin",
+      "createdAt": "2026-11-15T12:39:27.478Z",
+      "lastActiveAt": "2026-11-15T12:39:29.820Z",
+      "userAgent": "node",
+      "ipAddress": "127.0.0.1",
+      "active": true
+    }
+  ],
+  "loginEvents": [
+    {
+      "id": "log-1794747844909",
+      "email": "content@kampus.edu.in",
+      "adminName": "Aarav Mehta",
+      "roleId": "content_manager",
+      "success": true,
+      "reason": "Authenticated via KAMPUS Admin Portal",
+      "timestamp": "2026-11-15T13:04:04.909Z",
+      "ipAddress": "127.0.0.1",
+      "userAgent": "node"
+    },
+    {
+      "id": "log-1794747841553",
+      "email": "admin@kampus.edu.in",
+      "adminName": "Priyanka Kumari",
+      "roleId": "super_admin",
+      "success": true,
+      "reason": "Authenticated via KAMPUS Admin Portal",
+      "timestamp": "2026-11-15T13:04:01.553Z",
+      "ipAddress": "127.0.0.1",
+      "userAgent": "node"
+    },
+    {
+      "id": "log-1794747841434",
+      "email": "admin@kampus.edu.in",
+      "success": false,
+      "reason": "Invalid administrator email or password",
+      "timestamp": "2026-11-15T13:04:01.434Z",
+      "ipAddress": "127.0.0.1",
+      "userAgent": "node"
+    },
+    {
+      "id": "log-1794747816498",
+      "email": "content@kampus.edu.in",
+      "adminName": "Aarav Mehta",
+      "roleId": "content_manager",
+      "success": true,
+      "reason": "Authenticated via KAMPUS Admin Portal",
+      "timestamp": "2026-11-15T13:03:36.497Z",
+      "ipAddress": "127.0.0.1",
+      "userAgent": "node"
+    },
+    {
+      "id": "log-1794747813158",
+      "email": "admin@kampus.edu.in",
+      "adminName": "Priyanka Kumari",
+      "roleId": "super_admin",
+      "success": true,
+      "reason": "Authenticated via KAMPUS Admin Portal",
+      "timestamp": "2026-11-15T13:03:33.158Z",
+      "ipAddress": "127.0.0.1",
+      "userAgent": "node"
+    },
+    {
+      "id": "log-1794747813026",
+      "email": "admin@kampus.edu.in",
+      "success": false,
+      "reason": "Invalid administrator email or password",
+      "timestamp": "2026-11-15T13:03:33.026Z",
+      "ipAddress": "127.0.0.1",
+      "userAgent": "node"
+    },
+    {
+      "id": "log-1794747795857",
+      "email": "content@kampus.edu.in",
+      "adminName": "Aarav Mehta",
+      "roleId": "content_manager",
+      "success": true,
+      "reason": "Authenticated via KAMPUS Admin Portal",
+      "timestamp": "2026-11-15T13:03:15.857Z",
+      "ipAddress": "127.0.0.1",
+      "userAgent": "node"
+    },
+    {
+      "id": "log-1794747793636",
+      "email": "admin@kampus.edu.in",
+      "adminName": "Priyanka Kumari",
+      "roleId": "super_admin",
+      "success": true,
+      "reason": "Authenticated via KAMPUS Admin Portal",
+      "timestamp": "2026-11-15T13:03:13.636Z",
+      "ipAddress": "127.0.0.1",
+      "userAgent": "node"
+    },
+    {
+      "id": "log-1794747774052",
+      "email": "admin@kampus.edu.in",
+      "adminName": "Priyanka Kumari",
+      "roleId": "super_admin",
+      "success": true,
+      "reason": "Authenticated via KAMPUS Admin Portal",
+      "timestamp": "2026-11-15T13:02:54.052Z",
+      "ipAddress": "127.0.0.1",
+      "userAgent": "node"
+    },
+    {
+      "id": "log-1794747674143",
+      "email": "content@kampus.edu.in",
+      "adminName": "Aarav Mehta",
+      "roleId": "content_manager",
+      "success": true,
+      "reason": "Authenticated via KAMPUS Admin Portal",
+      "timestamp": "2026-11-15T13:01:14.142Z",
+      "ipAddress": "127.0.0.1",
+      "userAgent": "node"
+    },
+    {
+      "id": "log-1794747674008",
+      "email": "admin@kampus.edu.in",
+      "adminName": "Priyanka Kumari",
+      "roleId": "super_admin",
+      "success": true,
+      "reason": "Authenticated via KAMPUS Admin Portal",
+      "timestamp": "2026-11-15T13:01:14.008Z",
+      "ipAddress": "127.0.0.1",
+      "userAgent": "node"
+    },
+    {
+      "id": "log-1794747673875",
+      "email": "admin@kampus.edu.in",
+      "success": false,
+      "reason": "Invalid administrator email or password",
+      "timestamp": "2026-11-15T13:01:13.875Z",
+      "ipAddress": "127.0.0.1",
+      "userAgent": "node"
+    },
+    {
+      "id": "log-1794746367636",
+      "email": "content@kampus.edu.in",
+      "adminName": "Aarav Mehta",
+      "roleId": "content_manager",
+      "success": true,
+      "reason": "Authenticated via KAMPUS Admin Portal",
+      "timestamp": "2026-11-15T12:39:27.636Z",
+      "ipAddress": "127.0.0.1",
+      "userAgent": "node"
+    },
+    {
+      "id": "log-1794746367479",
+      "email": "admin@kampus.edu.in",
+      "adminName": "Priyanka Kumari",
+      "roleId": "super_admin",
+      "success": true,
+      "reason": "Authenticated via KAMPUS Admin Portal",
+      "timestamp": "2026-11-15T12:39:27.478Z",
+      "ipAddress": "127.0.0.1",
+      "userAgent": "node"
+    }
+  ],
+  "websiteConfig": {
+    "siteName": "KAMPUS",
+    "tagline": "Your Student Life, Connected.",
+    "logoUrl": "/src/assets/images/rewards_campus_pass_1794643813947.jpg",
+    "faviconUrl": "",
+    "contactEmail": "support@kampus.edu.in",
+    "supportPhone": "+91 22 4001 8800",
+    "footerDescription": "India’s unified academic operating system connecting coursework, AI tutoring, peer communities, campus passes, career drives, and verified student tools.",
+    "footerCopyright": "KAMPUS Technologies. Student-First Architecture.",
+    "siteActive": true,
+    "maintenanceMode": false,
+    "maintenanceMessage": "KAMPUS is undergoing scheduled platform maintenance. Core academic records remain safe and will return shortly.",
+    "scheduledMaintenanceWindow": "",
+    "allowRegistration": true,
+    "allowLogin": true,
+    "publicAccess": true,
+    "primaryColor": "#2563EB",
+    "navyColor": "#172554",
+    "accentColor": "#F97316",
+    "fontFamily": "Plus Jakarta Sans",
+    "buttonStyle": "rounded",
+    "borderRadiusScale": "standard",
+    "layoutWidth": "standard",
+    "navigationStyle": "sidebar",
+    "defaultTheme": "light",
+    "defaultLanguage": "en",
+    "supportedLanguages": [
+      "en",
+      "hi"
+    ],
+    "timezone": "Asia/Kolkata",
+    "dateFormat": "DD MMM YYYY",
+    "seoTitle": "KAMPUS - Your Student Life, Connected",
+    "seoDescription": "All-in-One Student Super App with 21 connected modules for study notes, KAMPUS AI, planner, digital locker, career placements, and campus life.",
+    "ogImage": "/src/assets/images/hero_students_campus_1794449577723.jpg",
+    "updatedAt": "2026-11-14T09:07:42.622Z",
+    "updatedBy": "System Seed"
+  },
+  "websiteVersions": [
+    {
+      "id": "wver-init",
+      "createdAt": "2026-11-14T09:07:42.551Z",
+      "createdBy": "System Seed",
+      "note": "Initial platform baseline configuration",
+      "snapshot": {
+        "siteName": "KAMPUS",
+        "tagline": "Your Student Life, Connected.",
+        "logoUrl": "/src/assets/images/rewards_campus_pass_1794643813947.jpg",
+        "faviconUrl": "",
+        "contactEmail": "support@kampus.edu.in",
+        "supportPhone": "+91 22 4001 8800",
+        "footerDescription": "India’s unified academic operating system connecting coursework, AI tutoring, peer communities, campus passes, career drives, and verified student tools.",
+        "footerCopyright": "KAMPUS Technologies. Student-First Architecture.",
+        "siteActive": true,
+        "maintenanceMode": false,
+        "maintenanceMessage": "KAMPUS is undergoing scheduled platform maintenance. Core academic records remain safe and will return shortly.",
+        "scheduledMaintenanceWindow": "",
+        "allowRegistration": true,
+        "allowLogin": true,
+        "publicAccess": true,
+        "primaryColor": "#2563EB",
+        "navyColor": "#172554",
+        "accentColor": "#F97316",
+        "fontFamily": "Plus Jakarta Sans",
+        "buttonStyle": "rounded",
+        "borderRadiusScale": "standard",
+        "layoutWidth": "standard",
+        "navigationStyle": "sidebar",
+        "defaultTheme": "light",
+        "defaultLanguage": "en",
+        "supportedLanguages": [
+          "en",
+          "hi"
+        ],
+        "timezone": "Asia/Kolkata",
+        "dateFormat": "DD MMM YYYY",
+        "seoTitle": "KAMPUS - Your Student Life, Connected",
+        "seoDescription": "All-in-One Student Super App with 21 connected modules for study notes, KAMPUS AI, planner, digital locker, career placements, and campus life.",
+        "ogImage": "/src/assets/images/hero_students_campus_1794449577723.jpg",
+        "updatedAt": "2026-11-14T09:07:42.622Z",
+        "updatedBy": "System Seed"
+      }
+    }
+  ],
+  "homepageDraft": [
+    {
+      "id": "sec-hero",
+      "type": "hero",
+      "label": "Hero Section",
+      "visible": true,
+      "order": 1,
+      "heading": "Your Student Life, Connected.",
+      "subheading": "India’s All-in-One Collegiate Ecosystem",
+      "description": "Unifying study materials, KAMPUS AI tutoring, live campus circulars, career drives, digital vault, and student communities in one workspace.",
+      "imageUrl": "/src/assets/images/hero_students_campus_1794449577723.jpg",
+      "iconName": "Compass",
+      "primaryCtaLabel": "Explore KAMPUS",
+      "primaryCtaLink": "#explore-features",
+      "secondaryCtaLabel": "Quick Search",
+      "secondaryCtaLink": "action:search",
+      "backgroundTone": "navy"
+    },
+    {
+      "id": "sec-features",
+      "type": "features",
+      "label": "Feature Categories (21 Modules)",
+      "visible": true,
+      "order": 2,
+      "heading": "Every Essential Student Tool, Unified",
+      "subheading": "21 Purpose-Built Modules",
+      "description": "Navigate seamlessly across Learn, Connect, Campus, Career, Market, Student Tools, and Account spaces.",
+      "imageUrl": "/src/assets/images/studyhub_desk_hero_1794549223041.jpg",
+      "iconName": "Layers",
+      "primaryCtaLabel": "Open Module",
+      "primaryCtaLink": "/learn/study-hub",
+      "secondaryCtaLabel": "",
+      "secondaryCtaLink": "",
+      "backgroundTone": "default"
+    },
+    {
+      "id": "sec-dashboard",
+      "type": "dashboard",
+      "label": "Student Dashboard Preview",
+      "visible": true,
+      "order": 3,
+      "heading": "Your Academic Cockpit",
+      "subheading": "Personalized Semester Snapshot",
+      "description": "Live syllabus pace, today’s lecture schedule, attendance safe-zone, and pending deadlines.",
+      "imageUrl": "/src/assets/images/study_algorithms_1794407583101.jpg",
+      "iconName": "TrendingUp",
+      "primaryCtaLabel": "Resume Lesson",
+      "primaryCtaLink": "action:lesson",
+      "secondaryCtaLabel": "Open Full Planner",
+      "secondaryCtaLink": "/tools/planner",
+      "backgroundTone": "default"
+    },
+    {
+      "id": "sec-ai-showcase",
+      "type": "ai-showcase",
+      "label": "KAMPUS AI Showcase",
+      "visible": true,
+      "order": 4,
+      "heading": "Meet KAMPUS AI, Your 24/7 Academic Copilot",
+      "subheading": "AI Study Companion",
+      "description": "Step-by-step proofs, note summarization, practice quizzes, and document intelligence tailored to your semester.",
+      "imageUrl": "/src/assets/images/ai_study_copilot_1794449593187.jpg",
+      "iconName": "Sparkles",
+      "primaryCtaLabel": "Open KAMPUS AI",
+      "primaryCtaLink": "/learn/kampus-ai",
+      "secondaryCtaLabel": "",
+      "secondaryCtaLink": "",
+      "backgroundTone": "navy"
+    },
+    {
+      "id": "sec-campus-life",
+      "type": "campus-life",
+      "label": "Campus Life Showcase",
+      "visible": true,
+      "order": 5,
+      "heading": "Stay Synchronized With Campus Pulse",
+      "subheading": "Vibrant Campus Community",
+      "description": "Official dean circulars, cultural fests, hackathons, student clubs, and hostel community channels.",
+      "imageUrl": "/src/assets/images/campus_life_activities_1794488255584.jpg",
+      "iconName": "Calendar",
+      "primaryCtaLabel": "Browse Events & Clubs",
+      "primaryCtaLink": "/campus/events-clubs",
+      "secondaryCtaLabel": "Join Community",
+      "secondaryCtaLink": "/connect/community",
+      "backgroundTone": "default"
+    },
+    {
+      "id": "sec-career",
+      "type": "career",
+      "label": "Career & Placements Showcase",
+      "visible": true,
+      "order": 6,
+      "heading": "Launch Your Engineering & Research Career",
+      "subheading": "Career & Placements",
+      "description": "Verified summer internships, merit scholarships, mentorship workshops, and campus placement drives.",
+      "imageUrl": "/src/assets/images/career_students_workshop_1794488271245.jpg",
+      "iconName": "Briefcase",
+      "primaryCtaLabel": "Explore Career Portal",
+      "primaryCtaLink": "/career",
+      "secondaryCtaLabel": "",
+      "secondaryCtaLink": "",
+      "backgroundTone": "default"
+    },
+    {
+      "id": "sec-announcements",
+      "type": "announcements",
+      "label": "Official Announcements Strip",
+      "visible": false,
+      "order": 7,
+      "heading": "Campus Announcements & Deadlines",
+      "subheading": "Verified Notices",
+      "description": "Official institution announcements published directly from KAMPUS Super Admin & Notification Center.",
+      "imageUrl": "/src/assets/images/notes_exchange_hero_1794550950819.jpg",
+      "iconName": "Bell",
+      "primaryCtaLabel": "View Notification Center",
+      "primaryCtaLink": "/account/notifications",
+      "secondaryCtaLabel": "",
+      "secondaryCtaLink": "",
+      "backgroundTone": "blue"
+    },
+    {
+      "id": "sec-featured-events",
+      "type": "featured-events",
+      "label": "Featured Events Spotlight",
+      "visible": false,
+      "order": 8,
+      "heading": "Featured Campus Events & Symposia",
+      "subheading": "Events & Clubs",
+      "description": "Discover upcoming workshops, hackathons, and student club showcases across campus.",
+      "imageUrl": "/src/assets/images/events_cultural_fest_1794564537193.jpg",
+      "iconName": "Calendar",
+      "primaryCtaLabel": "All Events",
+      "primaryCtaLink": "/campus/events-clubs",
+      "secondaryCtaLabel": "",
+      "secondaryCtaLink": "",
+      "backgroundTone": "default"
+    },
+    {
+      "id": "sec-featured-colleges",
+      "type": "featured-colleges",
+      "label": "Featured Colleges Spotlight",
+      "visible": false,
+      "order": 9,
+      "heading": "Explore Top Campuses & Departments",
+      "subheading": "College Explorer",
+      "description": "Compare verified campus directories, degree tracks, and academic facilities.",
+      "imageUrl": "/src/assets/images/college_iit_tech_campus_1794572775766.jpg",
+      "iconName": "Building2",
+      "primaryCtaLabel": "Open College Explorer",
+      "primaryCtaLink": "/campus/college-explorer",
+      "secondaryCtaLabel": "",
+      "secondaryCtaLink": "",
+      "backgroundTone": "slate"
+    },
+    {
+      "id": "sec-featured-market",
+      "type": "featured-market",
+      "label": "Featured Marketplace Items",
+      "visible": false,
+      "order": 10,
+      "heading": "Peer-to-Peer Campus Marketplace",
+      "subheading": "Zero Brokerage Student Exchange",
+      "description": "Verified textbooks, calculators, cycles, and lab instruments shared safely within college.",
+      "imageUrl": "/src/assets/images/market_hero_student_desk_1794573425705.jpg",
+      "iconName": "ShoppingBag",
+      "primaryCtaLabel": "Browse Market",
+      "primaryCtaLink": "/market",
+      "secondaryCtaLabel": "",
+      "secondaryCtaLink": "",
+      "backgroundTone": "default"
+    },
+    {
+      "id": "sec-promo-banner",
+      "type": "promo-banner",
+      "label": "Promotional Highlight Banner",
+      "visible": false,
+      "order": 11,
+      "heading": "Campus Academic Semester Drive",
+      "subheading": "Platform Highlight",
+      "description": "Complete your student profile and upload semester notes to unlock academic community recognition.",
+      "imageUrl": "/src/assets/images/rewards_study_pack_1794643814692.jpg",
+      "iconName": "Award",
+      "primaryCtaLabel": "Explore Rewards",
+      "primaryCtaLink": "/tools/rewards",
+      "secondaryCtaLabel": "",
+      "secondaryCtaLink": "",
+      "backgroundTone": "amber"
+    },
+    {
+      "id": "sec-footer",
+      "type": "footer",
+      "label": "Website Footer",
+      "visible": true,
+      "order": 12,
+      "heading": "KAMPUS",
+      "subheading": "Your Student Life, Connected.",
+      "description": "Built for modern Indian universities with secure local-first data controls.",
+      "imageUrl": "",
+      "iconName": "GraduationCap",
+      "primaryCtaLabel": "",
+      "primaryCtaLink": "",
+      "secondaryCtaLabel": "",
+      "secondaryCtaLink": "",
+      "backgroundTone": "default"
+    }
+  ],
+  "homepagePublished": [
+    {
+      "id": "sec-hero",
+      "type": "hero",
+      "label": "Hero Section",
+      "visible": true,
+      "order": 1,
+      "heading": "Your Student Life, Connected.",
+      "subheading": "India’s All-in-One Collegiate Ecosystem",
+      "description": "Unifying study materials, KAMPUS AI tutoring, live campus circulars, career drives, digital vault, and student communities in one workspace.",
+      "imageUrl": "/src/assets/images/hero_students_campus_1794449577723.jpg",
+      "iconName": "Compass",
+      "primaryCtaLabel": "Explore KAMPUS",
+      "primaryCtaLink": "#explore-features",
+      "secondaryCtaLabel": "Quick Search",
+      "secondaryCtaLink": "action:search",
+      "backgroundTone": "navy"
+    },
+    {
+      "id": "sec-features",
+      "type": "features",
+      "label": "Feature Categories (21 Modules)",
+      "visible": true,
+      "order": 2,
+      "heading": "Every Essential Student Tool, Unified",
+      "subheading": "21 Purpose-Built Modules",
+      "description": "Navigate seamlessly across Learn, Connect, Campus, Career, Market, Student Tools, and Account spaces.",
+      "imageUrl": "/src/assets/images/studyhub_desk_hero_1794549223041.jpg",
+      "iconName": "Layers",
+      "primaryCtaLabel": "Open Module",
+      "primaryCtaLink": "/learn/study-hub",
+      "secondaryCtaLabel": "",
+      "secondaryCtaLink": "",
+      "backgroundTone": "default"
+    },
+    {
+      "id": "sec-dashboard",
+      "type": "dashboard",
+      "label": "Student Dashboard Preview",
+      "visible": true,
+      "order": 3,
+      "heading": "Your Academic Cockpit",
+      "subheading": "Personalized Semester Snapshot",
+      "description": "Live syllabus pace, today’s lecture schedule, attendance safe-zone, and pending deadlines.",
+      "imageUrl": "/src/assets/images/study_algorithms_1794407583101.jpg",
+      "iconName": "TrendingUp",
+      "primaryCtaLabel": "Resume Lesson",
+      "primaryCtaLink": "action:lesson",
+      "secondaryCtaLabel": "Open Full Planner",
+      "secondaryCtaLink": "/tools/planner",
+      "backgroundTone": "default"
+    },
+    {
+      "id": "sec-ai-showcase",
+      "type": "ai-showcase",
+      "label": "KAMPUS AI Showcase",
+      "visible": true,
+      "order": 4,
+      "heading": "Meet KAMPUS AI, Your 24/7 Academic Copilot",
+      "subheading": "AI Study Companion",
+      "description": "Step-by-step proofs, note summarization, practice quizzes, and document intelligence tailored to your semester.",
+      "imageUrl": "/src/assets/images/ai_study_copilot_1794449593187.jpg",
+      "iconName": "Sparkles",
+      "primaryCtaLabel": "Open KAMPUS AI",
+      "primaryCtaLink": "/learn/kampus-ai",
+      "secondaryCtaLabel": "",
+      "secondaryCtaLink": "",
+      "backgroundTone": "navy"
+    },
+    {
+      "id": "sec-campus-life",
+      "type": "campus-life",
+      "label": "Campus Life Showcase",
+      "visible": true,
+      "order": 5,
+      "heading": "Stay Synchronized With Campus Pulse",
+      "subheading": "Vibrant Campus Community",
+      "description": "Official dean circulars, cultural fests, hackathons, student clubs, and hostel community channels.",
+      "imageUrl": "/src/assets/images/campus_life_activities_1794488255584.jpg",
+      "iconName": "Calendar",
+      "primaryCtaLabel": "Browse Events & Clubs",
+      "primaryCtaLink": "/campus/events-clubs",
+      "secondaryCtaLabel": "Join Community",
+      "secondaryCtaLink": "/connect/community",
+      "backgroundTone": "default"
+    },
+    {
+      "id": "sec-career",
+      "type": "career",
+      "label": "Career & Placements Showcase",
+      "visible": true,
+      "order": 6,
+      "heading": "Launch Your Engineering & Research Career",
+      "subheading": "Career & Placements",
+      "description": "Verified summer internships, merit scholarships, mentorship workshops, and campus placement drives.",
+      "imageUrl": "/src/assets/images/career_students_workshop_1794488271245.jpg",
+      "iconName": "Briefcase",
+      "primaryCtaLabel": "Explore Career Portal",
+      "primaryCtaLink": "/career",
+      "secondaryCtaLabel": "",
+      "secondaryCtaLink": "",
+      "backgroundTone": "default"
+    },
+    {
+      "id": "sec-announcements",
+      "type": "announcements",
+      "label": "Official Announcements Strip",
+      "visible": false,
+      "order": 7,
+      "heading": "Campus Announcements & Deadlines",
+      "subheading": "Verified Notices",
+      "description": "Official institution announcements published directly from KAMPUS Super Admin & Notification Center.",
+      "imageUrl": "/src/assets/images/notes_exchange_hero_1794550950819.jpg",
+      "iconName": "Bell",
+      "primaryCtaLabel": "View Notification Center",
+      "primaryCtaLink": "/account/notifications",
+      "secondaryCtaLabel": "",
+      "secondaryCtaLink": "",
+      "backgroundTone": "blue"
+    },
+    {
+      "id": "sec-featured-events",
+      "type": "featured-events",
+      "label": "Featured Events Spotlight",
+      "visible": false,
+      "order": 8,
+      "heading": "Featured Campus Events & Symposia",
+      "subheading": "Events & Clubs",
+      "description": "Discover upcoming workshops, hackathons, and student club showcases across campus.",
+      "imageUrl": "/src/assets/images/events_cultural_fest_1794564537193.jpg",
+      "iconName": "Calendar",
+      "primaryCtaLabel": "All Events",
+      "primaryCtaLink": "/campus/events-clubs",
+      "secondaryCtaLabel": "",
+      "secondaryCtaLink": "",
+      "backgroundTone": "default"
+    },
+    {
+      "id": "sec-featured-colleges",
+      "type": "featured-colleges",
+      "label": "Featured Colleges Spotlight",
+      "visible": false,
+      "order": 9,
+      "heading": "Explore Top Campuses & Departments",
+      "subheading": "College Explorer",
+      "description": "Compare verified campus directories, degree tracks, and academic facilities.",
+      "imageUrl": "/src/assets/images/college_iit_tech_campus_1794572775766.jpg",
+      "iconName": "Building2",
+      "primaryCtaLabel": "Open College Explorer",
+      "primaryCtaLink": "/campus/college-explorer",
+      "secondaryCtaLabel": "",
+      "secondaryCtaLink": "",
+      "backgroundTone": "slate"
+    },
+    {
+      "id": "sec-featured-market",
+      "type": "featured-market",
+      "label": "Featured Marketplace Items",
+      "visible": false,
+      "order": 10,
+      "heading": "Peer-to-Peer Campus Marketplace",
+      "subheading": "Zero Brokerage Student Exchange",
+      "description": "Verified textbooks, calculators, cycles, and lab instruments shared safely within college.",
+      "imageUrl": "/src/assets/images/market_hero_student_desk_1794573425705.jpg",
+      "iconName": "ShoppingBag",
+      "primaryCtaLabel": "Browse Market",
+      "primaryCtaLink": "/market",
+      "secondaryCtaLabel": "",
+      "secondaryCtaLink": "",
+      "backgroundTone": "default"
+    },
+    {
+      "id": "sec-promo-banner",
+      "type": "promo-banner",
+      "label": "Promotional Highlight Banner",
+      "visible": false,
+      "order": 11,
+      "heading": "Campus Academic Semester Drive",
+      "subheading": "Platform Highlight",
+      "description": "Complete your student profile and upload semester notes to unlock academic community recognition.",
+      "imageUrl": "/src/assets/images/rewards_study_pack_1794643814692.jpg",
+      "iconName": "Award",
+      "primaryCtaLabel": "Explore Rewards",
+      "primaryCtaLink": "/tools/rewards",
+      "secondaryCtaLabel": "",
+      "secondaryCtaLink": "",
+      "backgroundTone": "amber"
+    },
+    {
+      "id": "sec-footer",
+      "type": "footer",
+      "label": "Website Footer",
+      "visible": true,
+      "order": 12,
+      "heading": "KAMPUS",
+      "subheading": "Your Student Life, Connected.",
+      "description": "Built for modern Indian universities with secure local-first data controls.",
+      "imageUrl": "",
+      "iconName": "GraduationCap",
+      "primaryCtaLabel": "",
+      "primaryCtaLink": "",
+      "secondaryCtaLabel": "",
+      "secondaryCtaLink": "",
+      "backgroundTone": "default"
+    }
+  ],
+  "homepageVersions": [
+    {
+      "id": "hver-init",
+      "publishedAt": "2026-11-14T09:07:42.551Z",
+      "publishedBy": "System Seed",
+      "note": "Initial production homepage layout",
+      "sections": [
+        {
+          "id": "sec-hero",
+          "type": "hero",
+          "label": "Hero Section",
+          "visible": true,
+          "order": 1,
+          "heading": "Your Student Life, Connected.",
+          "subheading": "India’s All-in-One Collegiate Ecosystem",
+          "description": "Unifying study materials, KAMPUS AI tutoring, live campus circulars, career drives, digital vault, and student communities in one workspace.",
+          "imageUrl": "/src/assets/images/hero_students_campus_1794449577723.jpg",
+          "iconName": "Compass",
+          "primaryCtaLabel": "Explore KAMPUS",
+          "primaryCtaLink": "#explore-features",
+          "secondaryCtaLabel": "Quick Search",
+          "secondaryCtaLink": "action:search",
+          "backgroundTone": "navy"
+        },
+        {
+          "id": "sec-features",
+          "type": "features",
+          "label": "Feature Categories (21 Modules)",
+          "visible": true,
+          "order": 2,
+          "heading": "Every Essential Student Tool, Unified",
+          "subheading": "21 Purpose-Built Modules",
+          "description": "Navigate seamlessly across Learn, Connect, Campus, Career, Market, Student Tools, and Account spaces.",
+          "imageUrl": "/src/assets/images/studyhub_desk_hero_1794549223041.jpg",
+          "iconName": "Layers",
+          "primaryCtaLabel": "Open Module",
+          "primaryCtaLink": "/learn/study-hub",
+          "secondaryCtaLabel": "",
+          "secondaryCtaLink": "",
+          "backgroundTone": "default"
+        },
+        {
+          "id": "sec-dashboard",
+          "type": "dashboard",
+          "label": "Student Dashboard Preview",
+          "visible": true,
+          "order": 3,
+          "heading": "Your Academic Cockpit",
+          "subheading": "Personalized Semester Snapshot",
+          "description": "Live syllabus pace, today’s lecture schedule, attendance safe-zone, and pending deadlines.",
+          "imageUrl": "/src/assets/images/study_algorithms_1794407583101.jpg",
+          "iconName": "TrendingUp",
+          "primaryCtaLabel": "Resume Lesson",
+          "primaryCtaLink": "action:lesson",
+          "secondaryCtaLabel": "Open Full Planner",
+          "secondaryCtaLink": "/tools/planner",
+          "backgroundTone": "default"
+        },
+        {
+          "id": "sec-ai-showcase",
+          "type": "ai-showcase",
+          "label": "KAMPUS AI Showcase",
+          "visible": true,
+          "order": 4,
+          "heading": "Meet KAMPUS AI, Your 24/7 Academic Copilot",
+          "subheading": "AI Study Companion",
+          "description": "Step-by-step proofs, note summarization, practice quizzes, and document intelligence tailored to your semester.",
+          "imageUrl": "/src/assets/images/ai_study_copilot_1794449593187.jpg",
+          "iconName": "Sparkles",
+          "primaryCtaLabel": "Open KAMPUS AI",
+          "primaryCtaLink": "/learn/kampus-ai",
+          "secondaryCtaLabel": "",
+          "secondaryCtaLink": "",
+          "backgroundTone": "navy"
+        },
+        {
+          "id": "sec-campus-life",
+          "type": "campus-life",
+          "label": "Campus Life Showcase",
+          "visible": true,
+          "order": 5,
+          "heading": "Stay Synchronized With Campus Pulse",
+          "subheading": "Vibrant Campus Community",
+          "description": "Official dean circulars, cultural fests, hackathons, student clubs, and hostel community channels.",
+          "imageUrl": "/src/assets/images/campus_life_activities_1794488255584.jpg",
+          "iconName": "Calendar",
+          "primaryCtaLabel": "Browse Events & Clubs",
+          "primaryCtaLink": "/campus/events-clubs",
+          "secondaryCtaLabel": "Join Community",
+          "secondaryCtaLink": "/connect/community",
+          "backgroundTone": "default"
+        },
+        {
+          "id": "sec-career",
+          "type": "career",
+          "label": "Career & Placements Showcase",
+          "visible": true,
+          "order": 6,
+          "heading": "Launch Your Engineering & Research Career",
+          "subheading": "Career & Placements",
+          "description": "Verified summer internships, merit scholarships, mentorship workshops, and campus placement drives.",
+          "imageUrl": "/src/assets/images/career_students_workshop_1794488271245.jpg",
+          "iconName": "Briefcase",
+          "primaryCtaLabel": "Explore Career Portal",
+          "primaryCtaLink": "/career",
+          "secondaryCtaLabel": "",
+          "secondaryCtaLink": "",
+          "backgroundTone": "default"
+        },
+        {
+          "id": "sec-announcements",
+          "type": "announcements",
+          "label": "Official Announcements Strip",
+          "visible": false,
+          "order": 7,
+          "heading": "Campus Announcements & Deadlines",
+          "subheading": "Verified Notices",
+          "description": "Official institution announcements published directly from KAMPUS Super Admin & Notification Center.",
+          "imageUrl": "/src/assets/images/notes_exchange_hero_1794550950819.jpg",
+          "iconName": "Bell",
+          "primaryCtaLabel": "View Notification Center",
+          "primaryCtaLink": "/account/notifications",
+          "secondaryCtaLabel": "",
+          "secondaryCtaLink": "",
+          "backgroundTone": "blue"
+        },
+        {
+          "id": "sec-featured-events",
+          "type": "featured-events",
+          "label": "Featured Events Spotlight",
+          "visible": false,
+          "order": 8,
+          "heading": "Featured Campus Events & Symposia",
+          "subheading": "Events & Clubs",
+          "description": "Discover upcoming workshops, hackathons, and student club showcases across campus.",
+          "imageUrl": "/src/assets/images/events_cultural_fest_1794564537193.jpg",
+          "iconName": "Calendar",
+          "primaryCtaLabel": "All Events",
+          "primaryCtaLink": "/campus/events-clubs",
+          "secondaryCtaLabel": "",
+          "secondaryCtaLink": "",
+          "backgroundTone": "default"
+        },
+        {
+          "id": "sec-featured-colleges",
+          "type": "featured-colleges",
+          "label": "Featured Colleges Spotlight",
+          "visible": false,
+          "order": 9,
+          "heading": "Explore Top Campuses & Departments",
+          "subheading": "College Explorer",
+          "description": "Compare verified campus directories, degree tracks, and academic facilities.",
+          "imageUrl": "/src/assets/images/college_iit_tech_campus_1794572775766.jpg",
+          "iconName": "Building2",
+          "primaryCtaLabel": "Open College Explorer",
+          "primaryCtaLink": "/campus/college-explorer",
+          "secondaryCtaLabel": "",
+          "secondaryCtaLink": "",
+          "backgroundTone": "slate"
+        },
+        {
+          "id": "sec-featured-market",
+          "type": "featured-market",
+          "label": "Featured Marketplace Items",
+          "visible": false,
+          "order": 10,
+          "heading": "Peer-to-Peer Campus Marketplace",
+          "subheading": "Zero Brokerage Student Exchange",
+          "description": "Verified textbooks, calculators, cycles, and lab instruments shared safely within college.",
+          "imageUrl": "/src/assets/images/market_hero_student_desk_1794573425705.jpg",
+          "iconName": "ShoppingBag",
+          "primaryCtaLabel": "Browse Market",
+          "primaryCtaLink": "/market",
+          "secondaryCtaLabel": "",
+          "secondaryCtaLink": "",
+          "backgroundTone": "default"
+        },
+        {
+          "id": "sec-promo-banner",
+          "type": "promo-banner",
+          "label": "Promotional Highlight Banner",
+          "visible": false,
+          "order": 11,
+          "heading": "Campus Academic Semester Drive",
+          "subheading": "Platform Highlight",
+          "description": "Complete your student profile and upload semester notes to unlock academic community recognition.",
+          "imageUrl": "/src/assets/images/rewards_study_pack_1794643814692.jpg",
+          "iconName": "Award",
+          "primaryCtaLabel": "Explore Rewards",
+          "primaryCtaLink": "/tools/rewards",
+          "secondaryCtaLabel": "",
+          "secondaryCtaLink": "",
+          "backgroundTone": "amber"
+        },
+        {
+          "id": "sec-footer",
+          "type": "footer",
+          "label": "Website Footer",
+          "visible": true,
+          "order": 12,
+          "heading": "KAMPUS",
+          "subheading": "Your Student Life, Connected.",
+          "description": "Built for modern Indian universities with secure local-first data controls.",
+          "imageUrl": "",
+          "iconName": "GraduationCap",
+          "primaryCtaLabel": "",
+          "primaryCtaLink": "",
+          "secondaryCtaLabel": "",
+          "secondaryCtaLink": "",
+          "backgroundTone": "default"
+        }
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "id": "page-about",
+      "title": "About KAMPUS",
+      "slug": "about",
+      "pageType": "about",
+      "status": "Published",
+      "visibility": "Public",
+      "seoTitle": "About KAMPUS — Student Super App",
+      "seoDescription": "Learn how KAMPUS unifies 21 student workflows into one connected academic platform.",
+      "coverImageUrl": "/src/assets/images/college_management_quad_1794572777420.jpg",
+      "updatedAt": "2026-11-14T09:07:42.623Z",
+      "updatedBy": "Super Admin",
+      "publishedAt": "2026-11-14T09:07:42.623Z",
+      "blocks": [
+        {
+          "id": "blk-about-1",
+          "type": "heading",
+          "title": "Built Around the Real Student Journey"
+        },
+        {
+          "id": "blk-about-2",
+          "type": "paragraph",
+          "body": "KAMPUS brings together coursework materials, AI academic guidance, peer study rooms, official campus circulars, career opportunities, and verified student identity passes inside a single cohesive workspace."
+        },
+        {
+          "id": "blk-about-3",
+          "type": "card-grid",
+          "title": "Platform Pillars",
+          "items": [
+            {
+              "title": "Academic Mastery",
+              "detail": "Study Hub, KAMPUS AI, Notes Exchange, and Smart Planner."
+            },
+            {
+              "title": "Connected Campuses",
+              "detail": "Campus Pulse, Events & Clubs, KAMPUS ID, and Student Voice."
+            },
+            {
+              "title": "Verified Trust",
+              "detail": "Encrypted Digital Locker and role-governed data privacy."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "page-privacy",
+      "title": "Privacy Policy",
+      "slug": "privacy",
+      "pageType": "privacy",
+      "status": "Published",
+      "visibility": "Public",
+      "seoTitle": "KAMPUS Privacy Policy",
+      "seoDescription": "How KAMPUS protects student identity records, private Digital Locker files, and academic telemetry.",
+      "updatedAt": "2026-11-14T09:07:42.623Z",
+      "updatedBy": "Super Admin",
+      "publishedAt": "2026-11-14T09:07:42.623Z",
+      "blocks": [
+        {
+          "id": "blk-priv-1",
+          "type": "heading",
+          "title": "Student Data & Digital Locker Protection"
+        },
+        {
+          "id": "blk-priv-2",
+          "type": "paragraph",
+          "body": "Private files stored inside Digital Locker remain strictly isolated to your authenticated student account and are never exposed in administrative bulk exports."
+        }
+      ]
+    },
+    {
+      "id": "page-terms",
+      "title": "Terms of Service",
+      "slug": "terms",
+      "pageType": "terms",
+      "status": "Published",
+      "visibility": "Public",
+      "seoTitle": "KAMPUS Terms of Service",
+      "seoDescription": "Community guidelines, academic integrity standards, and campus marketplace rules on KAMPUS.",
+      "updatedAt": "2026-11-14T09:07:42.623Z",
+      "updatedBy": "Super Admin",
+      "publishedAt": "2026-11-14T09:07:42.623Z",
+      "blocks": [
+        {
+          "id": "blk-terms-1",
+          "type": "heading",
+          "title": "Academic Integrity & Community Conduct"
+        },
+        {
+          "id": "blk-terms-2",
+          "type": "paragraph",
+          "body": "Students must uphold university honour codes when uploading notes, participating in SkillSwap, or listing items on KAMPUS Market."
+        }
+      ]
+    },
+    {
+      "id": "page-help",
+      "title": "Help & Student Support",
+      "slug": "help",
+      "pageType": "help",
+      "status": "Published",
+      "visibility": "Public",
+      "seoTitle": "KAMPUS Help Center",
+      "seoDescription": "Frequently asked questions and support resources for KAMPUS modules.",
+      "updatedAt": "2026-11-14T09:07:42.623Z",
+      "updatedBy": "Super Admin",
+      "publishedAt": "2026-11-14T09:07:42.623Z",
+      "blocks": [
+        {
+          "id": "blk-help-1",
+          "type": "heading",
+          "title": "Frequently Asked Questions"
+        },
+        {
+          "id": "blk-help-2",
+          "type": "faq",
+          "items": [
+            {
+              "title": "How do I verify my student account?",
+              "detail": "Open KAMPUS ID or Onboarding to submit your enrollment ID for institutional verification."
+            },
+            {
+              "title": "Are my Digital Locker files private?",
+              "detail": "Yes. Only files for which you explicitly generate a timed share link can be viewed externally."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "page-contact",
+      "title": "Contact KAMPUS",
+      "slug": "contact",
+      "pageType": "contact",
+      "status": "Published",
+      "visibility": "Public",
+      "seoTitle": "Contact KAMPUS Administration",
+      "seoDescription": "Reach KAMPUS campus coordinators and platform support.",
+      "updatedAt": "2026-11-14T09:07:42.623Z",
+      "updatedBy": "Super Admin",
+      "publishedAt": "2026-11-14T09:07:42.623Z",
+      "blocks": [
+        {
+          "id": "blk-cnt-1",
+          "type": "heading",
+          "title": "Institutional & Student Support"
+        },
+        {
+          "id": "blk-cnt-2",
+          "type": "paragraph",
+          "body": "Reach our support team via support@kampus.edu.in or submit an issue ticket from Account > Settings > Help & Support."
+        }
+      ]
+    }
+  ],
+  "navigation": {
+    "headerMenu": [
+      {
+        "id": "hdr-home",
+        "label": "Home",
+        "destination": "/",
+        "visible": true,
+        "order": 1,
+        "protected": true
+      },
+      {
+        "id": "hdr-study",
+        "label": "Study Hub",
+        "destination": "/learn/study-hub",
+        "visible": true,
+        "order": 2
+      },
+      {
+        "id": "hdr-ai",
+        "label": "KAMPUS AI",
+        "destination": "/learn/kampus-ai",
+        "visible": true,
+        "order": 3
+      },
+      {
+        "id": "hdr-campus",
+        "label": "Campus Pulse",
+        "destination": "/campus/campus-pulse",
+        "visible": true,
+        "order": 4
+      },
+      {
+        "id": "hdr-career",
+        "label": "Career",
+        "destination": "/career",
+        "visible": true,
+        "order": 5
+      }
+    ],
+    "sidebarCategories": [
+      {
+        "id": "sb-learn",
+        "label": "LEARN",
+        "destination": "/learn/study-hub",
+        "visible": true,
+        "order": 1
+      },
+      {
+        "id": "sb-connect",
+        "label": "CONNECT",
+        "destination": "/connect/community",
+        "visible": true,
+        "order": 2
+      },
+      {
+        "id": "sb-campus",
+        "label": "CAMPUS",
+        "destination": "/campus/campus-pulse",
+        "visible": true,
+        "order": 3
+      },
+      {
+        "id": "sb-career",
+        "label": "Career",
+        "destination": "/career",
+        "visible": true,
+        "order": 4
+      },
+      {
+        "id": "sb-market",
+        "label": "KAMPUS Market",
+        "destination": "/market",
+        "visible": true,
+        "order": 5
+      },
+      {
+        "id": "sb-tools",
+        "label": "STUDENT TOOLS",
+        "destination": "/tools/planner",
+        "visible": true,
+        "order": 6
+      },
+      {
+        "id": "sb-account",
+        "label": "ACCOUNT",
+        "destination": "/account/settings",
+        "visible": true,
+        "order": 7,
+        "protected": true
+      }
+    ],
+    "dashboardQuickLinks": [
+      {
+        "id": "ql-planner",
+        "label": "Open Planner",
+        "destination": "/tools/planner",
+        "visible": true,
+        "order": 1
+      },
+      {
+        "id": "ql-locker",
+        "label": "Digital Locker",
+        "destination": "/tools/digital-locker",
+        "visible": true,
+        "order": 2
+      },
+      {
+        "id": "ql-rewards",
+        "label": "KAMPUS Rewards",
+        "destination": "/tools/rewards",
+        "visible": true,
+        "order": 3
+      }
+    ],
+    "footerAcademic": [
+      {
+        "id": "fa-study",
+        "label": "Study Hub",
+        "destination": "/learn/study-hub",
+        "visible": true,
+        "order": 1
+      },
+      {
+        "id": "fa-ai",
+        "label": "KAMPUS AI Assistant",
+        "destination": "/learn/kampus-ai",
+        "visible": true,
+        "order": 2
+      },
+      {
+        "id": "fa-notes",
+        "label": "Notes Exchange",
+        "destination": "/learn/notes-exchange",
+        "visible": true,
+        "order": 3
+      },
+      {
+        "id": "fa-planner",
+        "label": "Academic Planner",
+        "destination": "/tools/planner",
+        "visible": true,
+        "order": 4
+      },
+      {
+        "id": "fa-rooms",
+        "label": "Live Study Rooms",
+        "destination": "/connect/study-rooms",
+        "visible": true,
+        "order": 5
+      }
+    ],
+    "footerSupport": [
+      {
+        "id": "fs-about",
+        "label": "About Us",
+        "destination": "/page/about",
+        "visible": true,
+        "order": 1
+      },
+      {
+        "id": "fs-help",
+        "label": "Help & Support",
+        "destination": "/page/help",
+        "visible": true,
+        "order": 2
+      },
+      {
+        "id": "fs-privacy",
+        "label": "Privacy Policy",
+        "destination": "/page/privacy",
+        "visible": true,
+        "order": 3,
+        "protected": true
+      },
+      {
+        "id": "fs-terms",
+        "label": "Terms of Service",
+        "destination": "/page/terms",
+        "visible": true,
+        "order": 4,
+        "protected": true
+      },
+      {
+        "id": "fs-contact",
+        "label": "Contact",
+        "destination": "/page/contact",
+        "visible": true,
+        "order": 5
+      }
+    ],
+    "updatedAt": "2026-11-14T09:07:42.623Z"
+  },
+  "features": [
+    {
+      "id": "study-hub",
+      "number": 1,
+      "name": "Study Hub",
+      "description": "Course notes, previous year question papers, lecture summaries, and formula sheets.",
+      "iconName": "BookOpen",
+      "category": "learn",
+      "route": "/learn/study-hub",
+      "enabled": true,
+      "visible": true,
+      "maintenanceMode": false,
+      "maintenanceMessage": "Study Hub is temporarily undergoing administrative maintenance.",
+      "accessPermission": "all",
+      "limits": {
+        "maxUploadSizeMb": 25,
+        "maxResourcesPerSubject": 100
+      },
+      "featureSettings": {
+        "requireApprovalForPublicNotes": true,
+        "enableFormulaSheets": true,
+        "defaultView": "subjects"
+      },
+      "usageCount": 0,
+      "history": []
+    },
+    {
+      "id": "kampus-ai",
+      "number": 2,
+      "name": "KAMPUS AI",
+      "description": "24/7 personal academic copilot for problem solving, proofs, and document analysis.",
+      "iconName": "Sparkles",
+      "category": "learn",
+      "route": "/learn/kampus-ai",
+      "enabled": true,
+      "visible": true,
+      "maintenanceMode": false,
+      "maintenanceMessage": "KAMPUS AI is temporarily undergoing administrative maintenance.",
+      "accessPermission": "all",
+      "limits": {
+        "maxRequestsPerHour": 40,
+        "maxDocumentUploadMb": 10
+      },
+      "featureSettings": {
+        "defaultModel": "gemini-4-hydrogen",
+        "enforceAcademicIntegrityDisclaimer": true,
+        "allowDocumentUpload": true
+      },
+      "usageCount": 0,
+      "history": []
+    },
+    {
+      "id": "notes-exchange",
+      "number": 3,
+      "name": "Notes Exchange",
+      "description": "Peer-to-peer network to upload, review, and exchange verified handwritten notes.",
+      "iconName": "Share2",
+      "category": "learn",
+      "route": "/learn/notes-exchange",
+      "enabled": true,
+      "visible": true,
+      "maintenanceMode": false,
+      "maintenanceMessage": "Notes Exchange is temporarily undergoing administrative maintenance.",
+      "accessPermission": "all",
+      "limits": {
+        "maxPdfMb": 20,
+        "maxBountyRequestsOpen": 5
+      },
+      "featureSettings": {
+        "autoModerationEnabled": true,
+        "allowPeerVerification": true,
+        "requireCourseTag": true
+      },
+      "usageCount": 0,
+      "history": []
+    },
+    {
+      "id": "study-partner",
+      "number": 4,
+      "name": "Study Partner",
+      "description": "Peer matching based on courses, exam targets, and overlapping study schedules.",
+      "iconName": "UserCheck",
+      "category": "connect",
+      "route": "/connect/study-partner",
+      "enabled": true,
+      "visible": true,
+      "maintenanceMode": false,
+      "maintenanceMessage": "Study Partner is temporarily undergoing administrative maintenance.",
+      "accessPermission": "all",
+      "limits": {
+        "maxDailyMatchRequests": 15
+      },
+      "featureSettings": {
+        "sameCampusPriority": true,
+        "requireVerifiedForDirectPing": true,
+        "safetyFilterStrict": true
+      },
+      "usageCount": 0,
+      "history": []
+    },
+    {
+      "id": "community",
+      "number": 5,
+      "name": "Student Community",
+      "description": "Branch-wise and interest-based campus discussion forums and polls.",
+      "iconName": "Users",
+      "category": "connect",
+      "route": "/connect/community",
+      "enabled": true,
+      "visible": true,
+      "maintenanceMode": false,
+      "maintenanceMessage": "Student Community is temporarily undergoing administrative maintenance.",
+      "accessPermission": "all",
+      "limits": {
+        "maxPostLength": 3000,
+        "maxImagesPerPost": 4
+      },
+      "featureSettings": {
+        "holdFlaggedPostsForReview": true,
+        "allowCommunityPolls": true,
+        "minAccountAgeHours": 0
+      },
+      "usageCount": 0,
+      "history": []
+    },
+    {
+      "id": "chat",
+      "number": 6,
+      "name": "KAMPUS Chat",
+      "description": "Real-time direct messaging and study group channels for students.",
+      "iconName": "MessageSquare",
+      "category": "connect",
+      "route": "/connect/chat",
+      "enabled": true,
+      "visible": true,
+      "maintenanceMode": false,
+      "maintenanceMessage": "KAMPUS Chat is temporarily undergoing administrative maintenance.",
+      "accessPermission": "all",
+      "limits": {
+        "maxAttachmentMb": 10,
+        "maxGroupMembers": 150
+      },
+      "featureSettings": {
+        "requireRequestForNonConnections": true,
+        "allowVoiceNotes": true,
+        "messageReportingEnabled": true
+      },
+      "usageCount": 0,
+      "history": []
+    },
+    {
+      "id": "study-rooms",
+      "number": 7,
+      "name": "Study Rooms",
+      "description": "Synchronized Pomodoro focus rooms and silent accountability tables.",
+      "iconName": "Radio",
+      "category": "connect",
+      "route": "/connect/study-rooms",
+      "enabled": true,
+      "visible": true,
+      "maintenanceMode": false,
+      "maintenanceMessage": "Study Rooms is temporarily undergoing administrative maintenance.",
+      "accessPermission": "all",
+      "limits": {
+        "maxParticipantsPerRoom": 30,
+        "maxConcurrentOwnedRooms": 3
+      },
+      "featureSettings": {
+        "defaultPomodoroMinutes": 25,
+        "allowPublicRooms": true,
+        "enableSafetyReportButton": true
+      },
+      "usageCount": 0,
+      "history": []
+    },
+    {
+      "id": "skillswap",
+      "number": 8,
+      "name": "SkillSwap",
+      "description": "Peer micro-mentorship: exchange skills through structured learning tracks.",
+      "iconName": "Repeat",
+      "category": "connect",
+      "route": "/connect/skillswap",
+      "enabled": true,
+      "visible": true,
+      "maintenanceMode": false,
+      "maintenanceMessage": "SkillSwap is temporarily undergoing administrative maintenance.",
+      "accessPermission": "all",
+      "limits": {
+        "maxActiveListingsPerUser": 6
+      },
+      "featureSettings": {
+        "enableTimeBanking": true,
+        "requireSessionConfirmation": true,
+        "moderationAutoHoldReports": 3
+      },
+      "usageCount": 0,
+      "history": []
+    },
+    {
+      "id": "campus-pulse",
+      "number": 9,
+      "name": "Campus Pulse",
+      "description": "Live administrative circulars, mess menus, facility status, and campus polls.",
+      "iconName": "Activity",
+      "category": "campus",
+      "route": "/campus/campus-pulse",
+      "enabled": true,
+      "visible": true,
+      "maintenanceMode": false,
+      "maintenanceMessage": "Campus Pulse is temporarily undergoing administrative maintenance.",
+      "accessPermission": "all",
+      "limits": {
+        "pollDurationMaxDays": 14
+      },
+      "featureSettings": {
+        "allowStudentSubmissions": true,
+        "verifyPublisherBadge": true,
+        "showFacilityStatus": true
+      },
+      "usageCount": 0,
+      "history": []
+    },
+    {
+      "id": "events-clubs",
+      "number": 10,
+      "name": "Events & Clubs",
+      "description": "Discover hackathons, cultural festivals, student clubs, and manage RSVPs.",
+      "iconName": "Calendar",
+      "category": "campus",
+      "route": "/campus/events-clubs",
+      "enabled": true,
+      "visible": true,
+      "maintenanceMode": false,
+      "maintenanceMessage": "Events & Clubs is temporarily undergoing administrative maintenance.",
+      "accessPermission": "all",
+      "limits": {
+        "maxTeamSizeDefault": 5
+      },
+      "featureSettings": {
+        "requireAdminApprovalForNewClubs": true,
+        "issueQrTickets": true,
+        "enableParticipationCertificates": true
+      },
+      "usageCount": 0,
+      "history": []
+    },
+    {
+      "id": "kampus-id",
+      "number": 11,
+      "name": "KAMPUS ID",
+      "description": "Digital QR & NFC student identification card and institutional verification pass.",
+      "iconName": "CreditCard",
+      "category": "campus",
+      "route": "/campus/kampus-id",
+      "enabled": true,
+      "visible": true,
+      "maintenanceMode": false,
+      "maintenanceMessage": "KAMPUS ID is temporarily undergoing administrative maintenance.",
+      "accessPermission": "all",
+      "limits": {
+        "qrRefreshSeconds": 60
+      },
+      "featureSettings": {
+        "requireEnrollmentMatch": true,
+        "allowPublicVerificationUrl": true,
+        "biometricLockPrompt": true
+      },
+      "usageCount": 0,
+      "history": []
+    },
+    {
+      "id": "student-voice",
+      "number": 12,
+      "name": "Student Voice",
+      "description": "Structured student grievances, petitions, council polls, and idea board.",
+      "iconName": "Megaphone",
+      "category": "campus",
+      "route": "/campus/student-voice",
+      "enabled": true,
+      "visible": true,
+      "maintenanceMode": false,
+      "maintenanceMessage": "Student Voice is temporarily undergoing administrative maintenance.",
+      "accessPermission": "all",
+      "limits": {
+        "maxMonthlyPetitionsPerUser": 5
+      },
+      "featureSettings": {
+        "allowConfidentialSubmission": true,
+        "requireAdminEscalationReview": true,
+        "showPublicTrackingId": true
+      },
+      "usageCount": 0,
+      "history": []
+    },
+    {
+      "id": "career",
+      "number": 13,
+      "name": "Career",
+      "description": "Internships, scholarships, campus placement drives, and resume builder.",
+      "iconName": "Briefcase",
+      "category": "career",
+      "route": "/career",
+      "enabled": true,
+      "visible": true,
+      "maintenanceMode": false,
+      "maintenanceMessage": "Career is temporarily undergoing administrative maintenance.",
+      "accessPermission": "all",
+      "limits": {
+        "maxSavedJobs": 100
+      },
+      "featureSettings": {
+        "showUnverifiedOpportunityWarning": true,
+        "enableAtsResumePdf": true,
+        "enablePortfolioSharing": true
+      },
+      "usageCount": 0,
+      "history": []
+    },
+    {
+      "id": "college-explorer",
+      "number": 14,
+      "name": "College Explorer",
+      "description": "Search, compare, and inspect universities, courses, fees, and admissions.",
+      "iconName": "Compass",
+      "category": "campus",
+      "route": "/campus/college-explorer",
+      "enabled": true,
+      "visible": true,
+      "maintenanceMode": false,
+      "maintenanceMessage": "College Explorer is temporarily undergoing administrative maintenance.",
+      "accessPermission": "all",
+      "limits": {
+        "maxCompareColleges": 4
+      },
+      "featureSettings": {
+        "markUnverifiedRecordsClearly": true,
+        "allowStudentReviews": true,
+        "allowSharedComparisons": true
+      },
+      "usageCount": 0,
+      "history": []
+    },
+    {
+      "id": "market",
+      "number": 15,
+      "name": "KAMPUS Market",
+      "description": "Intra-college marketplace for textbooks, calculators, cycles, and room gear.",
+      "iconName": "ShoppingBag",
+      "category": "market",
+      "route": "/market",
+      "enabled": true,
+      "visible": true,
+      "maintenanceMode": false,
+      "maintenanceMessage": "KAMPUS Market is temporarily undergoing administrative maintenance.",
+      "accessPermission": "all",
+      "limits": {
+        "maxListingsPerStudent": 10,
+        "maxPhotosPerListing": 4
+      },
+      "featureSettings": {
+        "zeroBrokeragePolicy": true,
+        "requireVerifiedCampusUser": true,
+        "autoHideReportedItems": 3
+      },
+      "usageCount": 0,
+      "history": [
+        {
+          "id": "fhist-1794746368619",
+          "timestamp": "2026-11-15T12:39:28.619Z",
+          "actor": "admin@kampus.edu.in",
+          "summary": "Enabled feature"
+        },
+        {
+          "id": "fhist-1794746368457",
+          "timestamp": "2026-11-15T12:39:28.457Z",
+          "actor": "admin@kampus.edu.in",
+          "summary": "Disabled feature"
+        }
+      ]
+    },
+    {
+      "id": "digital-locker",
+      "number": 16,
+      "name": "Digital Locker",
+      "description": "Encrypted cloud vault for grade sheets, certificates, IDs, and documents.",
+      "iconName": "ShieldCheck",
+      "category": "tools",
+      "route": "/tools/digital-locker",
+      "enabled": true,
+      "visible": true,
+      "maintenanceMode": false,
+      "maintenanceMessage": "Digital Locker is temporarily undergoing administrative maintenance.",
+      "accessPermission": "all",
+      "limits": {
+        "storageQuotaMb": 250,
+        "maxSingleFileMb": 25
+      },
+      "featureSettings": {
+        "allowedFileTypes": "pdf,png,jpg,jpeg,docx,txt",
+        "enableTimedShareLinks": true,
+        "strictPrivateIsolation": true
+      },
+      "usageCount": 0,
+      "history": []
+    },
+    {
+      "id": "rewards",
+      "number": 17,
+      "name": "KAMPUS Rewards",
+      "description": "Transparent student participation points, badges, challenges, and redemptions.",
+      "iconName": "Gift",
+      "category": "tools",
+      "route": "/tools/rewards",
+      "enabled": true,
+      "visible": true,
+      "maintenanceMode": false,
+      "maintenanceMessage": "KAMPUS Rewards is temporarily undergoing administrative maintenance.",
+      "accessPermission": "all",
+      "limits": {
+        "dailyEarnCapPoints": 300
+      },
+      "featureSettings": {
+        "enableLeaderboardOptOut": true,
+        "requireAuditLogForAdjustments": true,
+        "pointsExpiryDays": 365
+      },
+      "usageCount": 0,
+      "history": []
+    },
+    {
+      "id": "planner",
+      "number": 18,
+      "name": "KAMPUS Planner",
+      "description": "Daily task planning, study schedules, attendance tracker, and exam countdowns.",
+      "iconName": "Clock",
+      "category": "tools",
+      "route": "/tools/planner",
+      "enabled": true,
+      "visible": true,
+      "maintenanceMode": false,
+      "maintenanceMessage": "KAMPUS Planner is temporarily undergoing administrative maintenance.",
+      "accessPermission": "all",
+      "limits": {
+        "maxActiveGoals": 25
+      },
+      "featureSettings": {
+        "defaultAttendanceThresholdPct": 75,
+        "enableStudyTimer": true,
+        "syncPlannerReminders": true
+      },
+      "usageCount": 0,
+      "history": []
+    },
+    {
+      "id": "notifications",
+      "number": 19,
+      "name": "Notification Center",
+      "description": "Centralized real-time academic alerts, campus circulars, and reminders.",
+      "iconName": "Bell",
+      "category": "account",
+      "route": "/account/notifications",
+      "enabled": true,
+      "visible": true,
+      "maintenanceMode": false,
+      "maintenanceMessage": "Notification Center is temporarily undergoing administrative maintenance.",
+      "accessPermission": "all",
+      "limits": {
+        "retentionDays": 90
+      },
+      "featureSettings": {
+        "enableWebSocketLiveFeed": true,
+        "allowOfficialBroadcasts": true,
+        "respectQuietHours": true
+      },
+      "usageCount": 0,
+      "history": []
+    },
+    {
+      "id": "profile",
+      "number": 20,
+      "name": "Student Profile",
+      "description": "Student identity, academic credentials, activity ledger, and verified certificates.",
+      "iconName": "User",
+      "category": "account",
+      "route": "/account/profile",
+      "enabled": true,
+      "visible": true,
+      "maintenanceMode": false,
+      "maintenanceMessage": "Student Profile is temporarily undergoing administrative maintenance.",
+      "accessPermission": "all",
+      "limits": {
+        "maxSkillTags": 20
+      },
+      "featureSettings": {
+        "allowPublicProfileSlug": true,
+        "allowCustomHeadline": true,
+        "showVerifiedLockerCertificates": true
+      },
+      "usageCount": 0,
+      "history": []
+    },
+    {
+      "id": "settings",
+      "number": 21,
+      "name": "Settings",
+      "description": "Theme appearance, language preferences, privacy controls, and account security.",
+      "iconName": "Settings",
+      "category": "account",
+      "route": "/account/settings",
+      "enabled": true,
+      "visible": true,
+      "maintenanceMode": false,
+      "maintenanceMessage": "Settings is temporarily undergoing administrative maintenance.",
+      "accessPermission": "all",
+      "limits": {
+        "sessionTimeoutDays": 30
+      },
+      "featureSettings": {
+        "allowSelfAccountExport": true,
+        "allowThemeCustomization": true,
+        "allowLanguageSwitch": true
+      },
+      "usageCount": 0,
+      "history": []
+    }
+  ],
+  "suspendedUserIds": [],
+  "userNotes": {},
+  "academicSubjects": [
+    {
+      "id": "subj-1",
+      "code": "CS-301",
+      "name": "Distributed Systems",
+      "stream": "Computer Science",
+      "semester": "Semester 6",
+      "credits": 4,
+      "status": "Active"
+    },
+    {
+      "id": "subj-2",
+      "code": "CS-302",
+      "name": "Advanced Algorithms & Graph Theory",
+      "stream": "Computer Science",
+      "semester": "Semester 6",
+      "credits": 4,
+      "status": "Active"
+    },
+    {
+      "id": "subj-3",
+      "code": "CS-303",
+      "name": "Artificial Intelligence & Neural Networks",
+      "stream": "Computer Science",
+      "semester": "Semester 6",
+      "credits": 4,
+      "status": "Active"
+    },
+    {
+      "id": "subj-4",
+      "code": "CS-304",
+      "name": "Database Management Systems",
+      "stream": "Computer Science",
+      "semester": "Semester 6",
+      "credits": 4,
+      "status": "Active"
+    },
+    {
+      "id": "subj-5",
+      "code": "MA-201",
+      "name": "Probability & Linear Algebra",
+      "stream": "Mathematics & Data Science",
+      "semester": "Semester 4",
+      "credits": 3,
+      "status": "Active"
+    }
+  ],
+  "academicCourses": [
+    {
+      "id": "crs-1",
+      "name": "B.Tech in Computer Science & AI",
+      "degreeLevel": "UG",
+      "stream": "Computer Science",
+      "durationYears": 4,
+      "status": "Active"
+    },
+    {
+      "id": "crs-2",
+      "name": "B.Tech in Electronics & Communication",
+      "degreeLevel": "UG",
+      "stream": "Electronics",
+      "durationYears": 4,
+      "status": "Active"
+    },
+    {
+      "id": "crs-3",
+      "name": "M.Tech in Machine Intelligence",
+      "degreeLevel": "PG",
+      "stream": "Computer Science",
+      "durationYears": 2,
+      "status": "Active"
+    }
+  ],
+  "academicResources": [
+    {
+      "id": "res-1",
+      "title": "Raft & Paxos Consensus Complete Notes",
+      "subjectCode": "CS-301",
+      "category": "Notes",
+      "status": "Approved",
+      "uploadedBy": "Aditya Sharma",
+      "createdAt": "2026-11-14T09:07:42.551Z"
+    },
+    {
+      "id": "res-2",
+      "title": "Tree DP & Centroid Decomposition Formula Sheet",
+      "subjectCode": "CS-302",
+      "category": "Formula Sheet",
+      "status": "Approved",
+      "uploadedBy": "Priya Sharma",
+      "createdAt": "2026-11-14T09:07:42.551Z"
+    },
+    {
+      "id": "res-3",
+      "title": "DBMS Indexing & B+ Tree Past Paper Solutions",
+      "subjectCode": "CS-304",
+      "category": "PYQ",
+      "status": "Pending Approval",
+      "uploadedBy": "Karan Patel",
+      "createdAt": "2026-11-14T09:07:42.551Z"
+    }
+  ],
+  "academicStreams": [
+    "Computer Science",
+    "Electronics",
+    "Mechanical Engineering",
+    "Mathematics & Data Science",
+    "Management"
+  ],
+  "communityRules": {
+    "requireVerifiedForLinks": true,
+    "autoFlagThreshold": 3,
+    "allowAnonymousVoice": true,
+    "blockedKeywords": [
+      "spam-link",
+      "phishing",
+      "exam-leak"
+    ],
+    "pinnedNotice": "Keep peer discussions respectful, cite academic sources, and never share private credentials."
+  },
+  "contentStatusOverrides": {},
+  "marketRules": {
+    "maxActiveListingsPerStudent": 10,
+    "requireCollegeVerification": true,
+    "prohibitedKeywords": [
+      "weapon",
+      "alcohol",
+      "tobacco",
+      "question-paper-leak"
+    ],
+    "escrowGuidance": "Meet in verified campus common zones (Library Plaza / Student Activity Center) before confirming handover."
+  },
+  "notificationPolicies": {
+    "enableBroadcasts": true,
+    "dailyDigestHour": "08:00",
+    "retentionDays": 90,
+    "templates": [
+      {
+        "id": "tpl-exam",
+        "name": "Examination Schedule Circular",
+        "category": "Academic",
+        "titleTemplate": "Exam Schedule Update: {{examName}}",
+        "bodyTemplate": "Official examination timetable details have been updated. Verify your hall and reporting time in KAMPUS Planner."
+      },
+      {
+        "id": "tpl-maint",
+        "name": "Platform Maintenance Advisory",
+        "category": "System",
+        "titleTemplate": "Scheduled KAMPUS Maintenance Window",
+        "bodyTemplate": "Platform maintenance is scheduled for {{window}}. Save active drafts beforehand."
+      }
+    ]
+  },
+  "ads": [
+    {
+      "id": "ad-campus-techfest",
+      "title": "Inter-College GenAI Buildathon 2026",
+      "subtitle": "Open for student teams across Computer Science, Design, and Systems tracks.",
+      "placement": "Homepage Banner",
+      "imageUrl": "/src/assets/images/campus_hackathon_1794407584703.jpg",
+      "targetUrl": "/campus/events-clubs",
+      "ctaLabel": "View Event Details",
+      "status": "Active",
+      "startDate": "2026-11-14",
+      "endDate": "2026-12-31",
+      "impressions": 0,
+      "clicks": 0,
+      "updatedAt": "2026-11-14T09:07:42.551Z"
+    }
+  ],
+  "mediaAssets": [
+    {
+      "id": "med-hero-1",
+      "name": "Hero Campus Collaboration",
+      "folder": "Homepage",
+      "mimeType": "image/jpeg",
+      "sizeBytes": 248000,
+      "url": "/src/assets/images/hero_students_campus_1794449577723.jpg",
+      "uploadedBy": "System Seed",
+      "uploadedAt": "2026-11-14T09:07:42.551Z",
+      "usageRefs": []
+    },
+    {
+      "id": "med-ai-1",
+      "name": "KAMPUS AI Copilot Cover",
+      "folder": "Homepage",
+      "mimeType": "image/jpeg",
+      "sizeBytes": 214000,
+      "url": "/src/assets/images/ai_study_copilot_1794449593187.jpg",
+      "uploadedBy": "System Seed",
+      "uploadedAt": "2026-11-14T09:07:42.551Z",
+      "usageRefs": []
+    },
+    {
+      "id": "med-campus-1",
+      "name": "Campus Life Cultural Fest",
+      "folder": "Banners",
+      "mimeType": "image/jpeg",
+      "sizeBytes": 230000,
+      "url": "/src/assets/images/campus_life_activities_1794488255584.jpg",
+      "uploadedBy": "System Seed",
+      "uploadedAt": "2026-11-14T09:07:42.551Z",
+      "usageRefs": []
+    },
+    {
+      "id": "med-career-1",
+      "name": "Career Mentorship Workshop",
+      "folder": "Banners",
+      "mimeType": "image/jpeg",
+      "sizeBytes": 221000,
+      "url": "/src/assets/images/career_students_workshop_1794488271245.jpg",
+      "uploadedBy": "System Seed",
+      "uploadedAt": "2026-11-14T09:07:42.551Z",
+      "usageRefs": []
+    },
+    {
+      "id": "med-brand-1",
+      "name": "KAMPUS Pass Identity Mark",
+      "folder": "Logos & Brand",
+      "mimeType": "image/jpeg",
+      "sizeBytes": 185000,
+      "url": "/src/assets/images/rewards_campus_pass_1794643813947.jpg",
+      "uploadedBy": "System Seed",
+      "uploadedAt": "2026-11-14T09:07:42.551Z",
+      "usageRefs": []
+    }
+  ],
+  "supportTickets": [],
+  "auditLogs": [
+    {
+      "id": "aud-1794747845737-b5da",
+      "actor": "content@kampus.edu.in",
+      "actorRole": "content_manager",
+      "action": "ADMIN_LOGOUT",
+      "target": "Admin Portal Session",
+      "timestamp": "2026-11-15T13:04:05.737Z",
+      "result": "Success"
+    },
+    {
+      "id": "aud-1794747845608-fd1f",
+      "actor": "admin@kampus.edu.in",
+      "actorRole": "super_admin",
+      "action": "ADMIN_LOGOUT",
+      "target": "Admin Portal Session",
+      "timestamp": "2026-11-15T13:04:05.608Z",
+      "result": "Success"
+    },
+    {
+      "id": "aud-1794747845473-8c7d",
+      "actor": "admin@kampus.edu.in",
+      "actorRole": "super_admin",
+      "action": "EXPORT_USERS",
+      "target": "JSON (12 rows)",
+      "timestamp": "2026-11-15T13:04:05.473Z",
+      "result": "Success"
+    },
+    {
+      "id": "aud-1794747845324-6c42",
+      "actor": "admin@kampus.edu.in",
+      "actorRole": "super_admin",
+      "action": "DELETE_CMS_PAGE",
+      "target": "Audit Verify Page",
+      "timestamp": "2026-11-15T13:04:05.324Z",
+      "result": "Success"
+    },
+    {
+      "id": "aud-1794747845111-ae7a",
+      "actor": "admin@kampus.edu.in",
+      "actorRole": "super_admin",
+      "action": "CREATE_CMS_PAGE",
+      "target": "/page/audit-verify-tmp",
+      "timestamp": "2026-11-15T13:04:05.111Z",
+      "result": "Success"
+    },
+    {
+      "id": "aud-1794747844977-71a8",
+      "actor": "content@kampus.edu.in",
+      "actorRole": "content_manager",
+      "action": "DENIED_SUPER_ADMIN_ONLY:/api/admin/website",
+      "target": "/api/admin/website",
+      "timestamp": "2026-11-15T13:04:04.977Z",
+      "result": "Denied"
+    },
+    {
+      "id": "aud-1794747844909-4761",
+      "actor": "content@kampus.edu.in",
+      "actorRole": "content_manager",
+      "action": "ADMIN_LOGIN",
+      "target": "Admin Portal Session",
+      "timestamp": "2026-11-15T13:04:04.909Z",
+      "result": "Success"
+    },
+    {
+      "id": "aud-1794747841553-10b6",
+      "actor": "admin@kampus.edu.in",
+      "actorRole": "super_admin",
+      "action": "ADMIN_LOGIN",
+      "target": "Admin Portal Session",
+      "timestamp": "2026-11-15T13:04:01.553Z",
+      "result": "Success"
+    },
+    {
+      "id": "aud-1794747817292-b797",
+      "actor": "content@kampus.edu.in",
+      "actorRole": "content_manager",
+      "action": "ADMIN_LOGOUT",
+      "target": "Admin Portal Session",
+      "timestamp": "2026-11-15T13:03:37.292Z",
+      "result": "Success"
+    },
+    {
+      "id": "aud-1794747817159-4079",
+      "actor": "admin@kampus.edu.in",
+      "actorRole": "super_admin",
+      "action": "ADMIN_LOGOUT",
+      "target": "Admin Portal Session",
+      "timestamp": "2026-11-15T13:03:37.159Z",
+      "result": "Success"
+    },
+    {
+      "id": "aud-1794747817024-07c4",
+      "actor": "admin@kampus.edu.in",
+      "actorRole": "super_admin",
+      "action": "EXPORT_USERS",
+      "target": "JSON (12 rows)",
+      "timestamp": "2026-11-15T13:03:37.024Z",
+      "result": "Success"
+    },
+    {
+      "id": "aud-1794747816893-5c24",
+      "actor": "admin@kampus.edu.in",
+      "actorRole": "super_admin",
+      "action": "DELETE_CMS_PAGE",
+      "target": "Audit Verify Page",
+      "timestamp": "2026-11-15T13:03:36.893Z",
+      "result": "Success"
+    },
+    {
+      "id": "aud-1794747816697-da69",
+      "actor": "admin@kampus.edu.in",
+      "actorRole": "super_admin",
+      "action": "CREATE_CMS_PAGE",
+      "target": "/page/audit-verify-tmp",
+      "timestamp": "2026-11-15T13:03:36.697Z",
+      "result": "Success"
+    },
+    {
+      "id": "aud-1794747816568-96e7",
+      "actor": "content@kampus.edu.in",
+      "actorRole": "content_manager",
+      "action": "DENIED_SUPER_ADMIN_ONLY:/api/admin/website",
+      "target": "/api/admin/website",
+      "timestamp": "2026-11-15T13:03:36.568Z",
+      "result": "Denied"
+    },
+    {
+      "id": "aud-1794747816498-c138",
+      "actor": "content@kampus.edu.in",
+      "actorRole": "content_manager",
+      "action": "ADMIN_LOGIN",
+      "target": "Admin Portal Session",
+      "timestamp": "2026-11-15T13:03:36.498Z",
+      "result": "Success"
+    },
+    {
+      "id": "aud-1794747813158-6fca",
+      "actor": "admin@kampus.edu.in",
+      "actorRole": "super_admin",
+      "action": "ADMIN_LOGIN",
+      "target": "Admin Portal Session",
+      "timestamp": "2026-11-15T13:03:33.158Z",
+      "result": "Success"
+    },
+    {
+      "id": "aud-1794747796238-36db",
+      "actor": "content@kampus.edu.in",
+      "actorRole": "content_manager",
+      "action": "ADMIN_LOGOUT",
+      "target": "Admin Portal Session",
+      "timestamp": "2026-11-15T13:03:16.238Z",
+      "result": "Success"
+    },
+    {
+      "id": "aud-1794747796102-e960",
+      "actor": "admin@kampus.edu.in",
+      "actorRole": "super_admin",
+      "action": "ADMIN_LOGOUT",
+      "target": "Admin Portal Session",
+      "timestamp": "2026-11-15T13:03:16.102Z",
+      "result": "Success"
+    },
+    {
+      "id": "aud-1794747795857-60ab",
+      "actor": "content@kampus.edu.in",
+      "actorRole": "content_manager",
+      "action": "ADMIN_LOGIN",
+      "target": "Admin Portal Session",
+      "timestamp": "2026-11-15T13:03:15.857Z",
+      "result": "Success"
+    },
+    {
+      "id": "aud-1794747793637-29fe",
+      "actor": "admin@kampus.edu.in",
+      "actorRole": "super_admin",
+      "action": "ADMIN_LOGIN",
+      "target": "Admin Portal Session",
+      "timestamp": "2026-11-15T13:03:13.637Z",
+      "result": "Success"
+    },
+    {
+      "id": "aud-1794747774052-1adf",
+      "actor": "admin@kampus.edu.in",
+      "actorRole": "super_admin",
+      "action": "ADMIN_LOGIN",
+      "target": "Admin Portal Session",
+      "timestamp": "2026-11-15T13:02:54.053Z",
+      "result": "Success"
+    },
+    {
+      "id": "aud-1794747678322-ff56",
+      "actor": "content@kampus.edu.in",
+      "actorRole": "content_manager",
+      "action": "ADMIN_LOGOUT",
+      "target": "Admin Portal Session",
+      "timestamp": "2026-11-15T13:01:18.322Z",
+      "result": "Success"
+    },
+    {
+      "id": "aud-1794747678178-56fb",
+      "actor": "admin@kampus.edu.in",
+      "actorRole": "super_admin",
+      "action": "ADMIN_LOGOUT",
+      "target": "Admin Portal Session",
+      "timestamp": "2026-11-15T13:01:18.178Z",
+      "result": "Success"
+    },
+    {
+      "id": "aud-1794747678028-6bc2",
+      "actor": "admin@kampus.edu.in",
+      "actorRole": "super_admin",
+      "action": "EXPORT_USERS",
+      "target": "CSV (12 rows)",
+      "timestamp": "2026-11-15T13:01:18.028Z",
+      "result": "Success"
+    },
+    {
+      "id": "aud-1794747677881-29f7",
+      "actor": "admin@kampus.edu.in",
+      "actorRole": "super_admin",
+      "action": "DELETE_CMS_PAGE",
+      "target": "Audit Verify Page",
+      "timestamp": "2026-11-15T13:01:17.881Z",
+      "result": "Success"
+    },
+    {
+      "id": "aud-1794747677659-5cf8",
+      "actor": "admin@kampus.edu.in",
+      "actorRole": "super_admin",
+      "action": "CREATE_CMS_PAGE",
+      "target": "/page/audit-verify-tmp",
+      "timestamp": "2026-11-15T13:01:17.659Z",
+      "result": "Success"
+    },
+    {
+      "id": "aud-1794747674224-31c7",
+      "actor": "content@kampus.edu.in",
+      "actorRole": "content_manager",
+      "action": "DENIED_SUPER_ADMIN_ONLY:/api/admin/website",
+      "target": "/api/admin/website",
+      "timestamp": "2026-11-15T13:01:14.224Z",
+      "result": "Denied"
+    },
+    {
+      "id": "aud-1794747674143-adeb",
+      "actor": "content@kampus.edu.in",
+      "actorRole": "content_manager",
+      "action": "ADMIN_LOGIN",
+      "target": "Admin Portal Session",
+      "timestamp": "2026-11-15T13:01:14.143Z",
+      "result": "Success"
+    },
+    {
+      "id": "aud-1794747674008-2efd",
+      "actor": "admin@kampus.edu.in",
+      "actorRole": "super_admin",
+      "action": "ADMIN_LOGIN",
+      "target": "Admin Portal Session",
+      "timestamp": "2026-11-15T13:01:14.008Z",
+      "result": "Success"
+    },
+    {
+      "id": "aud-1794746369280-0a4a",
+      "actor": "admin@kampus.edu.in",
+      "actorRole": "super_admin",
+      "action": "EXPORT_USERS",
+      "target": "CSV (12 rows)",
+      "timestamp": "2026-11-15T12:39:29.280Z",
+      "result": "Success"
+    },
+    {
+      "id": "aud-1794746369123-14c3",
+      "actor": "admin@kampus.edu.in",
+      "actorRole": "super_admin",
+      "action": "CREATE_BACKUP",
+      "target": "kampus-backup-2026-11-15T12-39-29-121Z.json",
+      "timestamp": "2026-11-15T12:39:29.123Z",
+      "result": "Success",
+      "metadata": {
+        "sizeBytes": 298428
+      }
+    },
+    {
+      "id": "aud-1794746368974-9f97",
+      "actor": "admin@kampus.edu.in",
+      "actorRole": "super_admin",
+      "action": "DELETE_MEDIA_ASSET",
+      "target": "e2e-pixel.png",
+      "timestamp": "2026-11-15T12:39:28.974Z",
+      "result": "Success"
+    },
+    {
+      "id": "aud-1794746368751-edcb",
+      "actor": "admin@kampus.edu.in",
+      "actorRole": "super_admin",
+      "action": "UPLOAD_MEDIA_ASSET",
+      "target": "e2e-pixel.png",
+      "timestamp": "2026-11-15T12:39:28.751Z",
+      "result": "Success"
+    },
+    {
+      "id": "aud-1794746368619-70e8",
+      "actor": "admin@kampus.edu.in",
+      "actorRole": "super_admin",
+      "action": "UPDATE_FEATURE_CONFIG",
+      "target": "KAMPUS Market",
+      "timestamp": "2026-11-15T12:39:28.619Z",
+      "result": "Success",
+      "metadata": {
+        "enabled": true,
+        "maintenanceMode": false
+      }
+    },
+    {
+      "id": "aud-1794746368457-868c",
+      "actor": "admin@kampus.edu.in",
+      "actorRole": "super_admin",
+      "action": "UPDATE_FEATURE_CONFIG",
+      "target": "KAMPUS Market",
+      "timestamp": "2026-11-15T12:39:28.457Z",
+      "result": "Success",
+      "metadata": {
+        "enabled": false,
+        "maintenanceMode": false
+      }
+    },
+    {
+      "id": "aud-1794746368333-2fa0",
+      "actor": "admin@kampus.edu.in",
+      "actorRole": "super_admin",
+      "action": "DELETE_CMS_PAGE",
+      "target": "E2E Verify Page",
+      "timestamp": "2026-11-15T12:39:28.333Z",
+      "result": "Success"
+    },
+    {
+      "id": "aud-1794746368135-e49c",
+      "actor": "admin@kampus.edu.in",
+      "actorRole": "super_admin",
+      "action": "CREATE_CMS_PAGE",
+      "target": "/page/e2e-verify-page",
+      "timestamp": "2026-11-15T12:39:28.135Z",
+      "result": "Success"
+    },
+    {
+      "id": "aud-1794746367707-2c1b",
+      "actor": "content@kampus.edu.in",
+      "actorRole": "content_manager",
+      "action": "DENIED_SUPER_ADMIN_ONLY:/api/admin/website",
+      "target": "/api/admin/website",
+      "timestamp": "2026-11-15T12:39:27.707Z",
+      "result": "Denied"
+    },
+    {
+      "id": "aud-1794746367636-d881",
+      "actor": "content@kampus.edu.in",
+      "actorRole": "content_manager",
+      "action": "ADMIN_LOGIN",
+      "target": "Admin Portal Session",
+      "timestamp": "2026-11-15T12:39:27.636Z",
+      "result": "Success"
+    },
+    {
+      "id": "aud-1794746367479-5ee3",
+      "actor": "admin@kampus.edu.in",
+      "actorRole": "super_admin",
+      "action": "ADMIN_LOGIN",
+      "target": "Admin Portal Session",
+      "timestamp": "2026-11-15T12:39:27.479Z",
+      "result": "Success"
+    },
+    {
+      "id": "aud-init",
+      "actor": "System Seed",
+      "actorRole": "super_admin",
+      "action": "INITIALIZE_SUPER_ADMIN_CONTROL_CENTER",
+      "target": "Platform Core",
+      "timestamp": "2026-11-14T09:07:42.551Z",
+      "result": "Success"
+    }
+  ],
+  "backups": [
+    {
+      "id": "bkp-1794746369123",
+      "fileName": "kampus-backup-2026-11-15T12-39-29-121Z.json",
+      "createdAt": "2026-11-15T12:39:29.123Z",
+      "createdBy": "admin@kampus.edu.in",
+      "sizeBytes": 298428,
+      "checksumSha256": "4a1c23e876a92d155c982d9a0b643b2895d9e9f5b42089d6a08e0a0924688cda",
+      "includedStores": [
+        "superAdmin",
+        "account",
+        "campusPulse",
+        "career",
+        "chat",
+        "collegeExplorer",
+        "eventsClubs",
+        "kampusId",
+        "market",
+        "notifications",
+        "planner",
+        "rewards",
+        "skillswap",
+        "studentVoice"
+      ],
+      "verified": true
+    }
+  ],
+  "retentionConfig": {
+    "auditLogDays": 365,
+    "resolvedTicketDays": 180,
+    "backupRetentionCount": 15
+  }
+}

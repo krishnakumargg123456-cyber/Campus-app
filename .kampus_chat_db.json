@@ -1,0 +1,488 @@
+{
+  "students": [
+    {
+      "id": "stu_aditya",
+      "name": "Aditya Sharma",
+      "avatarKey": "aditya",
+      "course": "B.Tech Computer Science",
+      "semester": "Sem 6",
+      "college": "Delhi Technological University",
+      "relationship": "Study Partner",
+      "sharedInterests": [
+        "Algorithms",
+        "Distributed Systems",
+        "GATE CS"
+      ],
+      "allowMessagesFrom": "everyone",
+      "isDemoUser": true
+    },
+    {
+      "id": "stu_ananya",
+      "name": "Ananya Verma",
+      "avatarKey": "ananya",
+      "course": "B.Sc / Biology & Research",
+      "semester": "Year 2",
+      "college": "Delhi University",
+      "relationship": "Following",
+      "sharedInterests": [
+        "Academic Writing",
+        "Flashcards",
+        "Pomodoro Sprints"
+      ],
+      "allowMessagesFrom": "everyone",
+      "isDemoUser": true
+    },
+    {
+      "id": "stu_rohan",
+      "name": "Rohan Kulkarni",
+      "avatarKey": "rohan",
+      "course": "B.Tech Electronics & Comm.",
+      "semester": "Sem 5",
+      "college": "NIT Surathkal",
+      "relationship": "Group Member",
+      "sharedInterests": [
+        "Tree DP",
+        "Linear Algebra",
+        "Mock Tests"
+      ],
+      "allowMessagesFrom": "everyone",
+      "isDemoUser": true
+    },
+    {
+      "id": "stu_meera",
+      "name": "Meera Iyer",
+      "avatarKey": "meera",
+      "course": "B.Com (Hons) & UI Design",
+      "semester": "Sem 4",
+      "college": "SRCC Delhi University",
+      "relationship": "Recent Contact",
+      "sharedInterests": [
+        "UI Systems",
+        "Case Studies",
+        "Product"
+      ],
+      "allowMessagesFrom": "study-partners",
+      "isDemoUser": true
+    },
+    {
+      "id": "stu_kabir",
+      "name": "Kabir Malhotra",
+      "avatarKey": "kabir",
+      "course": "M.Sc Applied Mathematics",
+      "semester": "Sem 2",
+      "college": "IIT Roorkee",
+      "relationship": "Suggested",
+      "sharedInterests": [
+        "Probability",
+        "Graph Theory",
+        "LaTeX"
+      ],
+      "allowMessagesFrom": "everyone",
+      "isDemoUser": true
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_dm_22B030149_aditya",
+      "type": "direct",
+      "participantIds": [
+        "22B030149",
+        "stu_aditya"
+      ],
+      "isDemoConversation": true,
+      "createdAt": "2026-11-14T08:11:15.088Z",
+      "updatedAt": "2026-11-14T08:38:15.088Z",
+      "lastMessagePreview": "Let’s meet at the Central Library Hall at 5 PM.",
+      "lastMessageAt": "2026-11-14T08:38:15.088Z",
+      "userPrefs": {
+        "22B030149": {
+          "pinned": false,
+          "muted": false,
+          "archived": false,
+          "markedUnread": true
+        }
+      }
+    },
+    {
+      "id": "conv_cs302_group",
+      "type": "group",
+      "title": "CS-302 Graph Theory Study Group",
+      "description": "Weekly problem-solving sprints, tree decomposition proofs, and lab viva prep.",
+      "category": "Study Group",
+      "avatarKey": "collab",
+      "participantIds": [
+        "usr_22b030149",
+        "stu_aditya",
+        "stu_rohan",
+        "stu_kabir",
+        "22B030149"
+      ],
+      "members": [
+        {
+          "userId": "usr_22b030149",
+          "role": "Owner",
+          "joinedAt": "2026-11-12T08:53:05.296Z"
+        },
+        {
+          "userId": "stu_aditya",
+          "role": "Admin",
+          "joinedAt": "2026-11-12T09:03:05.296Z"
+        },
+        {
+          "userId": "stu_rohan",
+          "role": "Member",
+          "joinedAt": "2026-11-12T10:13:05.296Z"
+        },
+        {
+          "userId": "stu_kabir",
+          "role": "Member",
+          "joinedAt": "2026-11-12T15:13:05.296Z"
+        },
+        {
+          "userId": "22B030149",
+          "role": "Member",
+          "joinedAt": "2026-11-14T08:53:15.088Z"
+        }
+      ],
+      "onlyAdminsCanPost": false,
+      "onlyAdminsCanInvite": false,
+      "isDemoConversation": true,
+      "createdAt": "2026-11-12T08:53:05.296Z",
+      "updatedAt": "2026-11-14T08:35:05.296Z",
+      "lastMessagePreview": "Aditya: Did anyone solve problem 4 on tree decomposition?",
+      "lastMessageAt": "2026-11-14T08:35:05.296Z",
+      "userPrefs": {
+        "usr_22b030149": {
+          "pinned": true,
+          "muted": false,
+          "archived": false,
+          "markedUnread": false
+        },
+        "22B030149": {
+          "pinned": false,
+          "muted": false,
+          "archived": false,
+          "markedUnread": false
+        }
+      }
+    },
+    {
+      "id": "conv_aditya_dm",
+      "type": "direct",
+      "participantIds": [
+        "usr_22b030149",
+        "stu_aditya"
+      ],
+      "isDemoConversation": true,
+      "createdAt": "2026-11-13T08:53:05.296Z",
+      "updatedAt": "2026-11-14T08:08:05.296Z",
+      "lastMessagePreview": "Let’s meet at the Central Library Hall at 5 PM.",
+      "lastMessageAt": "2026-11-14T08:08:05.296Z",
+      "userPrefs": {
+        "usr_22b030149": {
+          "pinned": false,
+          "muted": false,
+          "archived": false,
+          "markedUnread": false
+        }
+      }
+    },
+    {
+      "id": "conv_exam_sprint",
+      "type": "group",
+      "title": "Mid-Sem OS & DBMS Revision Squad",
+      "description": "Sharing crisp PYQs, Banker’s Algorithm dry-runs, and timed quiz goals.",
+      "category": "Exam Preparation",
+      "avatarKey": "exam",
+      "participantIds": [
+        "usr_22b030149",
+        "stu_ananya",
+        "stu_rohan",
+        "22B030149"
+      ],
+      "members": [
+        {
+          "userId": "stu_ananya",
+          "role": "Owner",
+          "joinedAt": "2026-11-11T08:53:05.296Z"
+        },
+        {
+          "userId": "usr_22b030149",
+          "role": "Member",
+          "joinedAt": "2026-11-11T10:53:05.296Z"
+        },
+        {
+          "userId": "stu_rohan",
+          "role": "Member",
+          "joinedAt": "2026-11-11T12:33:05.296Z"
+        },
+        {
+          "userId": "22B030149",
+          "role": "Member",
+          "joinedAt": "2026-11-14T08:53:15.088Z"
+        }
+      ],
+      "onlyAdminsCanPost": false,
+      "onlyAdminsCanInvite": false,
+      "isDemoConversation": true,
+      "createdAt": "2026-11-11T08:53:05.296Z",
+      "updatedAt": "2026-11-14T03:33:05.296Z",
+      "lastMessagePreview": "Shared OS Normalization & Deadlocks revision guide.",
+      "lastMessageAt": "2026-11-14T03:33:05.296Z",
+      "userPrefs": {
+        "usr_22b030149": {
+          "pinned": false,
+          "muted": false,
+          "archived": false,
+          "markedUnread": false
+        },
+        "22B030149": {
+          "pinned": false,
+          "muted": false,
+          "archived": false,
+          "markedUnread": false
+        }
+      }
+    }
+  ],
+  "messages": [
+    {
+      "id": "msg_demo_1",
+      "conversationId": "conv_cs302_group",
+      "senderId": "stu_rohan",
+      "senderName": "Rohan Kulkarni",
+      "kind": "text",
+      "text": "Hey team, did anyone review the lecture slides on treewidth and DP on trees?",
+      "createdAt": "2026-11-14T07:18:05.296Z",
+      "isPinned": true,
+      "reactions": [
+        {
+          "emoji": "👍",
+          "userIds": [
+            "usr_22b030149",
+            "stu_aditya"
+          ]
+        }
+      ],
+      "readByIds": [
+        "usr_22b030149",
+        "stu_aditya",
+        "stu_rohan"
+      ],
+      "status": "read"
+    },
+    {
+      "id": "msg_demo_2",
+      "conversationId": "conv_cs302_group",
+      "senderId": "usr_22b030149",
+      "senderName": "Priya Sharma",
+      "kind": "study-resource",
+      "text": "Shared a study resource from Notes Exchange.",
+      "createdAt": "2026-11-14T07:51:05.296Z",
+      "reactions": [
+        {
+          "emoji": "🔥",
+          "userIds": [
+            "stu_rohan"
+          ]
+        }
+      ],
+      "readByIds": [
+        "usr_22b030149",
+        "stu_aditya",
+        "stu_rohan"
+      ],
+      "status": "read",
+      "studyResource": {
+        "sourceModule": "Notes Exchange",
+        "resourceType": "Notes",
+        "title": "DP on Trees & Subtree Rerooting Notes",
+        "subject": "Algorithms (CS-302)",
+        "summary": "Annotated recurrence proofs and O(V) rerooting template for Problem Set 4.",
+        "route": "/learn/notes-exchange"
+      }
+    },
+    {
+      "id": "msg_demo_3",
+      "conversationId": "conv_cs302_group",
+      "senderId": "stu_aditya",
+      "senderName": "Aditya Sharma",
+      "kind": "text",
+      "text": "Did anyone solve problem 4 on tree decomposition?",
+      "createdAt": "2026-11-14T08:35:05.296Z",
+      "reactions": [],
+      "readByIds": [
+        "stu_aditya"
+      ],
+      "status": "delivered"
+    },
+    {
+      "id": "msg_demo_4",
+      "conversationId": "conv_aditya_dm",
+      "senderId": "stu_aditya",
+      "senderName": "Aditya Sharma",
+      "kind": "text",
+      "text": "Hey Priya, do you have time to cross-check the Raft consensus proofs before tomorrow’s lab viva?",
+      "createdAt": "2026-11-14T07:33:05.296Z",
+      "reactions": [],
+      "readByIds": [
+        "usr_22b030149",
+        "stu_aditya"
+      ],
+      "status": "read"
+    },
+    {
+      "id": "msg_demo_5",
+      "conversationId": "conv_aditya_dm",
+      "senderId": "usr_22b030149",
+      "senderName": "Priya Sharma",
+      "kind": "text",
+      "text": "Definitely! I will be free right after our 4 PM Software Engineering lecture.",
+      "createdAt": "2026-11-14T07:53:05.296Z",
+      "reactions": [],
+      "readByIds": [
+        "usr_22b030149",
+        "stu_aditya"
+      ],
+      "status": "read"
+    },
+    {
+      "id": "msg_demo_6",
+      "conversationId": "conv_aditya_dm",
+      "senderId": "stu_aditya",
+      "senderName": "Aditya Sharma",
+      "kind": "text",
+      "text": "Let’s meet at the Central Library Hall at 5 PM.",
+      "createdAt": "2026-11-14T08:08:05.296Z",
+      "reactions": [
+        {
+          "emoji": "👍",
+          "userIds": [
+            "usr_22b030149"
+          ]
+        }
+      ],
+      "readByIds": [
+        "usr_22b030149",
+        "stu_aditya"
+      ],
+      "status": "read"
+    },
+    {
+      "id": "msg_demo_7",
+      "conversationId": "conv_exam_sprint",
+      "senderId": "stu_ananya",
+      "senderName": "Ananya Verma",
+      "kind": "study-session",
+      "text": "Scheduled an exam revision sprint session.",
+      "createdAt": "2026-11-14T03:33:05.296Z",
+      "isAnnouncement": true,
+      "reactions": [],
+      "readByIds": [
+        "usr_22b030149",
+        "stu_ananya"
+      ],
+      "status": "read",
+      "studySession": {
+        "sessionId": "sess_os_sprint",
+        "title": "OS Deadlocks & B+ Tree Sprint",
+        "subject": "Operating Systems & DBMS",
+        "date": "Tomorrow",
+        "time": "6:30 PM IST",
+        "durationMinutes": 50,
+        "objective": "Solve 3 Banker Algorithm problems and review B+ tree split rules.",
+        "acceptedByIds": [
+          "stu_ananya"
+        ]
+      }
+    },
+    {
+      "id": "msg_seed_22B030149_1",
+      "conversationId": "conv_dm_22B030149_aditya",
+      "senderId": "stu_aditya",
+      "senderName": "Aditya Sharma",
+      "kind": "text",
+      "text": "Hey Priya! Do you want to cross-check our CS-302 lab viva notes together?",
+      "createdAt": "2026-11-14T08:11:15.088Z",
+      "reactions": [],
+      "readByIds": [
+        "stu_aditya"
+      ],
+      "status": "delivered"
+    },
+    {
+      "id": "msg_seed_22B030149_2",
+      "conversationId": "conv_dm_22B030149_aditya",
+      "senderId": "stu_aditya",
+      "senderName": "Aditya Sharma",
+      "kind": "text",
+      "text": "Let’s meet at the Central Library Hall at 5 PM.",
+      "createdAt": "2026-11-14T08:38:15.088Z",
+      "reactions": [],
+      "readByIds": [
+        "stu_aditya"
+      ],
+      "status": "delivered"
+    }
+  ],
+  "requests": [
+    {
+      "id": "req_seed_22B030149_kabir",
+      "fromUserId": "stu_kabir",
+      "fromName": "Kabir Malhotra",
+      "fromAvatarKey": "kabir",
+      "fromCourse": "M.Sc Applied Mathematics",
+      "toUserId": "22B030149",
+      "toName": "Priya Sharma",
+      "messagePreview": "Hi Priya! Saw your graph algorithms study focus — want to collaborate on our discrete math problem set?",
+      "sharedInterests": [
+        "Graph Theory",
+        "Algorithms"
+      ],
+      "status": "pending",
+      "createdAt": "2026-11-14T07:23:15.088Z"
+    },
+    {
+      "id": "req_demo_kabir",
+      "fromUserId": "stu_kabir",
+      "fromName": "Kabir Malhotra",
+      "fromAvatarKey": "kabir",
+      "fromCourse": "M.Sc Applied Mathematics",
+      "toUserId": "usr_22b030149",
+      "toName": "Priya Sharma",
+      "messagePreview": "Hi Priya! Saw your graph algorithms notes — want to collaborate on our discrete math sheet?",
+      "sharedInterests": [
+        "Graph Theory",
+        "Algorithms"
+      ],
+      "status": "pending",
+      "createdAt": "2026-11-14T06:43:05.296Z"
+    }
+  ],
+  "blockedByUser": {},
+  "settingsByUser": {
+    "usr_22b030149": {
+      "whoCanMessage": "everyone",
+      "showOnlineStatus": true,
+      "showLastSeen": true,
+      "sendReadReceipts": true,
+      "messageAlerts": true,
+      "groupAlerts": true,
+      "autoDownloadMedia": true,
+      "compactMode": false
+    }
+  },
+  "reports": [],
+  "files": {},
+  "lastSeenByUser": {
+    "stu_aditya": "2026-11-14T08:41:05.296Z",
+    "stu_ananya": "2026-11-14T08:08:05.296Z",
+    "stu_rohan": "2026-11-14T08:23:05.296Z",
+    "stu_meera": "2026-11-14T05:53:05.296Z",
+    "stu_kabir": "2026-11-14T07:23:05.296Z"
+  },
+  "seededUserIds": [
+    "usr_22b030149",
+    "22B030149"
+  ]
+}

@@ -1,0 +1,149 @@
+{
+  "notifications": [],
+  "preferencesByUser": {
+    "usr_22b030149": {
+      "userId": "usr_22b030149",
+      "modules": {
+        "academic": {
+          "studyReminders": true,
+          "examAlerts": true,
+          "assignmentUpdates": true,
+          "goalReminders": true
+        },
+        "community": {
+          "mentions": true,
+          "replies": true,
+          "comments": true,
+          "announcements": true
+        },
+        "chat": {
+          "directMessages": true,
+          "groupMessages": true,
+          "messageRequests": true
+        },
+        "events": {
+          "eventReminders": true,
+          "registrationUpdates": true,
+          "clubAnnouncements": true
+        },
+        "career": {
+          "applicationReminders": true,
+          "interviewAlerts": true,
+          "opportunityUpdates": true
+        },
+        "market": {
+          "buyerInquiries": true,
+          "offers": true,
+          "listingUpdates": true
+        },
+        "rewards": {
+          "pointsUpdates": true,
+          "achievementUpdates": true,
+          "challengeReminders": true,
+          "redemptionUpdates": true
+        },
+        "system": {
+          "securityAlerts": true,
+          "serviceUpdates": true
+        }
+      },
+      "channels": {
+        "inApp": true,
+        "browserPush": false,
+        "email": false,
+        "sms": false,
+        "smsConsent": false
+      },
+      "quietHours": {
+        "enabled": false,
+        "startTime": "22:00",
+        "endTime": "07:00",
+        "timezone": "Asia/Kolkata"
+      },
+      "digest": {
+        "enabled": false,
+        "frequency": "Daily",
+        "categories": [
+          "Academic",
+          "Career",
+          "Events & Clubs"
+        ]
+      },
+      "updatedAt": "2026-11-14T08:46:01.617Z"
+    },
+    "22B030149": {
+      "userId": "22B030149",
+      "modules": {
+        "academic": {
+          "studyReminders": true,
+          "examAlerts": true,
+          "assignmentUpdates": true,
+          "goalReminders": true
+        },
+        "community": {
+          "mentions": true,
+          "replies": true,
+          "comments": true,
+          "announcements": true
+        },
+        "chat": {
+          "directMessages": true,
+          "groupMessages": true,
+          "messageRequests": true
+        },
+        "events": {
+          "eventReminders": true,
+          "registrationUpdates": true,
+          "clubAnnouncements": true
+        },
+        "career": {
+          "applicationReminders": true,
+          "interviewAlerts": true,
+          "opportunityUpdates": true
+        },
+        "market": {
+          "buyerInquiries": true,
+          "offers": true,
+          "listingUpdates": true
+        },
+        "rewards": {
+          "pointsUpdates": true,
+          "achievementUpdates": true,
+          "challengeReminders": true,
+          "redemptionUpdates": true
+        },
+        "system": {
+          "securityAlerts": true,
+          "serviceUpdates": true
+        }
+      },
+      "channels": {
+        "inApp": true,
+        "browserPush": false,
+        "email": false,
+        "sms": false,
+        "smsConsent": false
+      },
+      "quietHours": {
+        "enabled": false,
+        "startTime": "22:00",
+        "endTime": "07:00",
+        "timezone": "Asia/Kolkata"
+      },
+      "digest": {
+        "enabled": false,
+        "frequency": "Daily",
+        "categories": [
+          "Academic",
+          "Career",
+          "Events & Clubs"
+        ]
+      },
+      "updatedAt": "2026-11-14T08:53:05.992Z"
+    }
+  },
+  "pushSubscriptions": [],
+  "announcements": [],
+  "reminderOverrides": {},
+  "roleOverrides": {}
+}

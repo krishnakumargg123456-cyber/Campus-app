@@ -1,0 +1,328 @@
+{
+  "wallets": {
+    "22B030149": {
+      "userId": "22B030149",
+      "userName": "KAMPUS Student",
+      "college": "Campus Member",
+      "availableBalance": 0,
+      "totalEarned": 0,
+      "totalRedeemed": 0,
+      "pendingPoints": 0,
+      "showOnLeaderboard": true,
+      "referralCode": "KMP-REF-FEAB95",
+      "activeDigitalTheme": null,
+      "updatedAt": "2026-11-14T08:53:05.979Z"
+    }
+  },
+  "transactions": [],
+  "rules": [
+    {
+      "id": "rule_study_session",
+      "module": "Study Hub",
+      "actionName": "Verified Study Room Session",
+      "description": "Participate in or host a verified Study Room session.",
+      "points": 25,
+      "dailyLimit": 2,
+      "active": true
+    },
+    {
+      "id": "rule_notes_approved",
+      "module": "Notes Exchange",
+      "actionName": "Approved Study Document Contribution",
+      "description": "Upload and organize verified academic documents.",
+      "points": 20,
+      "dailyLimit": 3,
+      "active": true
+    },
+    {
+      "id": "rule_community_answer",
+      "module": "Student Community",
+      "actionName": "Accepted Academic Discussion Contribution",
+      "description": "Contribute helpful study guidance or answers in campus communities.",
+      "points": 30,
+      "dailyLimit": 3,
+      "active": true
+    },
+    {
+      "id": "rule_event_checkin",
+      "module": "Events & Clubs",
+      "actionName": "Verified Event Attendance Check-In",
+      "description": "QR-verified attendance at an official campus event or workshop.",
+      "points": 40,
+      "dailyLimit": 2,
+      "active": true
+    },
+    {
+      "id": "rule_career_assessment",
+      "module": "Career",
+      "actionName": "Completed Career Readiness Assessment",
+      "description": "Finish an aptitude, coding, or interview assessment in KAMPUS Career.",
+      "points": 35,
+      "dailyLimit": 2,
+      "active": true
+    },
+    {
+      "id": "rule_voice_survey",
+      "module": "Student Voice",
+      "actionName": "Campus Poll / Constructive Survey Participation",
+      "description": "Cast a verified campus poll vote or submit constructive institutional feedback.",
+      "points": 15,
+      "dailyLimit": 2,
+      "active": true
+    }
+  ],
+  "levels": [
+    {
+      "levelNumber": 1,
+      "name": "STARTER",
+      "tagline": "Welcome to KAMPUS.",
+      "minPoints": 0,
+      "benefits": [
+        "Access KAMPUS Digital Rewards Store",
+        "Join Daily & Weekly Challenges"
+      ]
+    },
+    {
+      "levelNumber": 2,
+      "name": "EXPLORER",
+      "tagline": "Explore the student ecosystem.",
+      "minPoints": 100,
+      "benefits": [
+        "Unlock Career Templates & Checklists",
+        "Priority Study Pack Downloads"
+      ]
+    },
+    {
+      "levelNumber": 3,
+      "name": "ACHIEVER",
+      "tagline": "Build consistent learning habits.",
+      "minPoints": 300,
+      "benefits": [
+        "Unlock ATS Resume & Interview Kits",
+        "Featured Explorer Profile Ribbon"
+      ]
+    },
+    {
+      "levelNumber": 4,
+      "name": "CHAMPION",
+      "tagline": "Become an active student contributor.",
+      "minPoints": 700,
+      "benefits": [
+        "Unlock Priority Campus Workshop Passes",
+        "Custom Profile Theme Pack"
+      ]
+    },
+    {
+      "levelNumber": 5,
+      "name": "LEGEND",
+      "tagline": "Reach exceptional community milestones.",
+      "minPoints": 1500,
+      "benefits": [
+        "Campus Honours Digital Crest",
+        "Early Access to New Campus Tools"
+      ]
+    }
+  ],
+  "achievements": [
+    {
+      "id": "ach_first_study",
+      "name": "First Study Session",
+      "category": "Academic",
+      "description": "Join or host your first collaborative Study Room on KAMPUS.",
+      "criteriaText": "1 verified Study Room participation",
+      "criteriaKey": "study_sessions",
+      "threshold": 1
+    },
+    {
+      "id": "ach_quiz_master",
+      "name": "Assessment Finisher",
+      "category": "Career",
+      "description": "Complete at least one career readiness assessment.",
+      "criteriaText": "1 completed Career Assessment",
+      "criteriaKey": "career_assessments",
+      "threshold": 1
+    },
+    {
+      "id": "ach_resume_ready",
+      "name": "Resume Ready",
+      "category": "Career",
+      "description": "Create and maintain a structured resume inside KAMPUS Career.",
+      "criteriaText": "1 Resume created in Career Hub",
+      "criteriaKey": "career_resumes",
+      "threshold": 1
+    },
+    {
+      "id": "ach_event_explorer",
+      "name": "Event Explorer",
+      "category": "Campus",
+      "description": "Verify attendance at an official campus workshop, seminar, or fest event.",
+      "criteriaText": "1 QR-verified event attendance",
+      "criteriaKey": "events_checked_in",
+      "threshold": 1
+    },
+    {
+      "id": "ach_club_participant",
+      "name": "Club Participant",
+      "category": "Campus",
+      "description": "Join an active campus student club or technical society.",
+      "criteriaText": "1 active club membership",
+      "criteriaKey": "clubs_joined",
+      "threshold": 1
+    },
+    {
+      "id": "ach_community_voice",
+      "name": "Constructive Campus Voice",
+      "category": "Community",
+      "description": "Share constructive feedback or participate in an official campus poll.",
+      "criteriaText": "1 verified poll vote or feedback entry",
+      "criteriaKey": "voice_contributions",
+      "threshold": 1
+    },
+    {
+      "id": "ach_doc_organizer",
+      "name": "Vault Organizer",
+      "category": "Personal Growth",
+      "description": "Store and organize academic or career records safely in Digital Locker.",
+      "criteriaText": "1 encrypted file in Digital Locker",
+      "criteriaKey": "locker_docs",
+      "threshold": 1
+    },
+    {
+      "id": "ach_challenge_done",
+      "name": "Challenge Completed",
+      "category": "Personal Growth",
+      "description": "Complete and claim your first KAMPUS Rewards challenge.",
+      "criteriaText": "1 claimed Rewards Challenge",
+      "criteriaKey": "challenges_claimed",
+      "threshold": 1
+    }
+  ],
+  "unlockedAchievements": [
+    {
+      "userId": "22B030149",
+      "achievementId": "ach_resume_ready",
+      "unlockedAt": "2026-11-14T08:53:05.981Z"
+    }
+  ],
+  "challenges": [
+    {
+      "id": "chl_daily_voice",
+      "cadence": "Daily",
+      "name": "Voice Your Campus Perspective",
+      "description": "Participate in a Student Voice poll or submit constructive campus feedback.",
+      "rewardPoints": 20,
+      "targetCount": 1,
+      "metricKey": "voice_contributions",
+      "deadlineISO": "2026-11-15",
+      "active": true
+    },
+    {
+      "id": "chl_daily_locker",
+      "cadence": "Daily",
+      "name": "Back Up an Academic Record",
+      "description": "Upload and categorize at least 1 academic or career document in Digital Locker.",
+      "rewardPoints": 20,
+      "targetCount": 1,
+      "metricKey": "locker_docs",
+      "deadlineISO": "2026-11-15",
+      "active": true
+    },
+    {
+      "id": "chl_weekly_career",
+      "cadence": "Weekly",
+      "name": "Weekly Career Readiness Sprint",
+      "description": "Complete a career assessment and build or update your resume in Career Hub.",
+      "rewardPoints": 45,
+      "targetCount": 2,
+      "metricKey": "career_total",
+      "deadlineISO": "2026-11-21",
+      "active": true
+    },
+    {
+      "id": "chl_weekly_campus",
+      "cadence": "Weekly",
+      "name": "Active Campus Engagement",
+      "description": "Check in at a campus event or join an active student club in Events & Clubs.",
+      "rewardPoints": 40,
+      "targetCount": 1,
+      "metricKey": "campus_total",
+      "deadlineISO": "2026-11-21",
+      "active": true
+    }
+  ],
+  "challengeParticipations": [],
+  "catalog": [
+    {
+      "id": "rw_study_planner_pack",
+      "name": "Semester Study & Exam Revision Pack",
+      "category": "Study Rewards",
+      "description": "Structured semester syllabus tracker, spaced-repetition revision checklist, and exam formula template.",
+      "requiredPoints": 25,
+      "requiredLevel": 1,
+      "stockRemaining": -1,
+      "imageKey": "study_pack",
+      "isPartnerOffer": false,
+      "digitalContent": {
+        "title": "KAMPUS Semester Revision Blueprint",
+        "instructions": "Save these templates in your Study Hub or Digital Locker to structure 14-day exam blocks.",
+        "resourceText": "1. 7-3-1 Spaced Review Cadence: Review new lecture notes at 24h, Day 3, and Day 7.\n2. Formula & Proof Sheet: Condense each unit to 1 single-sided sheet.\n3. Timed Mock Sprint: Allocate 60% of final 5 days to timed past-paper problem sets."
+      },
+      "active": true
+    },
+    {
+      "id": "rw_career_ats_kit",
+      "name": "ATS Resume & Technical Interview Kit",
+      "category": "Career Rewards",
+      "description": "Curated engineering & internship resume bullet templates plus structured behavioral STAR prompts.",
+      "requiredPoints": 50,
+      "requiredLevel": 1,
+      "stockRemaining": -1,
+      "imageKey": "career_kit",
+      "isPartnerOffer": false,
+      "digitalContent": {
+        "title": "KAMPUS Career ATS & Interview Kit",
+        "instructions": "Apply the Action + Metric + Context formula directly inside Career Hub Resume Builder.",
+        "resourceText": "Bullet Formula: [Strong Action Verb] + [Technical Artifact] + [Measurable Outcome].\nSTAR Method Checklist: Situation (15%) -> Task (15%) -> Action (50%) -> Quantified Result (20%)."
+      },
+      "active": true
+    },
+    {
+      "id": "rw_campus_workshop_pass",
+      "name": "Priority Campus Workshop Seating Pass",
+      "category": "Campus Rewards",
+      "description": "Reserve priority front-row seating at official Campus Tech & Design Club workshops organized on campus.",
+      "requiredPoints": 75,
+      "requiredLevel": 2,
+      "stockRemaining": 40,
+      "imageKey": "campus_pass",
+      "isPartnerOffer": false,
+      "digitalContent": {
+        "title": "Campus Workshop Priority Verification",
+        "instructions": "Show this fulfilled redemption ID to student organizers at the event desk.",
+        "resourceText": "Valid for any campus-hosted club workshop listed under Events & Clubs."
+      },
+      "active": true
+    },
+    {
+      "id": "rw_digital_navy_crest",
+      "name": "Deep Navy Honours Profile Theme",
+      "category": "Digital Rewards",
+      "description": "Unlock a clean Deep Navy Honours accent theme for your KAMPUS Rewards portfolio card.",
+      "requiredPoints": 40,
+      "requiredLevel": 1,
+      "stockRemaining": -1,
+      "imageKey": "campus_pass",
+      "isPartnerOffer": false,
+      "digitalContent": {
+        "title": "Deep Navy Honours Theme Unlocked",
+        "instructions": "Theme preference is applied directly to your KAMPUS Rewards hero display.",
+        "resourceText": "Active theme key: navy-honours"
+      },
+      "active": true
+    }
+  ],
+  "redemptions": [],
+  "referrals": [],
+  "auditLogs": [],
+  "roleOverrides": {}
+}

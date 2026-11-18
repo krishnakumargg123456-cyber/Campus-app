@@ -1,0 +1,52 @@
+{
+  "identitiesByUser": {
+    "22B030149": {
+      "kampusIdNumber": "KMP-26-182880",
+      "publicSlug": "kampus-student-kmp-26-182880",
+      "userId": "22B030149",
+      "fullName": "KAMPUS Student",
+      "avatarUrl": "",
+      "college": "Indian Institute of Technology, Bombay",
+      "department": "Computer Science & Engineering",
+      "course": "B.Tech in Computer Science & AI",
+      "academicYearOrSemester": "Semester 6",
+      "enrollmentNo": "22B030149",
+      "bio": "",
+      "skills": [],
+      "interests": [],
+      "accountStatus": "Active",
+      "cardVersion": "KAMPUS ID v1.0",
+      "issuedAt": "2026-11-14T08:53:05.961Z",
+      "updatedAt": "2026-11-14T08:53:05.961Z",
+      "verification": {
+        "kampusAccount": "Active",
+        "profileCompleted": true,
+        "emailVerified": false,
+        "institutionalInfoProvided": true,
+        "institutionalVerification": "Not Submitted"
+      },
+      "privacy": {
+        "profileVisibility": "Public",
+        "photoVisibility": true,
+        "collegeVisibility": true,
+        "academicVisibility": true,
+        "skillsVisibility": true,
+        "achievementsVisibility": true,
+        "clubsVisibility": true
+      },
+      "activityHistory": [
+        {
+          "id": "kid_act_1794646385962",
+          "action": "ID Created",
+          "detail": "Immutable platform ID KMP-26-182880 issued.",
+          "timestamp": "2026-11-14T08:53:05.961Z"
+        }
+      ]
+    }
+  },
+  "issuedNumbers": [
+    "KMP-26-182880"
+  ],
+  "verificationRequests": [],
+  "verifierOverrides": {}
+}
